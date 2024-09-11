@@ -1,0 +1,3379 @@
+Timestamp: 2024-09-11T05:51:05.058Z
+Payload: {
+  "challenge": "88bb06af1310cba4d4776929fe659896"
+}
+
+Timestamp: 2024-09-11T05:54:13.642Z
+Payload: {
+  "call": {
+    "id": "1d311a8d-eee4-4362-bf54-704c49806d19",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "1d311a8d-eee4-4362-bf54-704c49806d19",
+        "dial_starts_at": "2024-09-11T05:51:46+00:00",
+        "dial_answered_at": "2024-09-11T05:52:10+00:00",
+        "dial_ends_at": "2024-09-11T05:53:10+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "EXTENSION",
+        "circuit_number": null,
+        "circuit_name": null,
+        "from_number": "123",
+        "to_number": "140",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 11,
+          "tlr": 0.6752,
+          "rally_count": 13,
+          "overlap_count": 0,
+          "silence_count": 1,
+          "silence_positions": [
+            [
+              40.64,
+              48.5
+            ]
+          ],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191dfa3-506c-f256-47c4-4eebe2e61772",
+            "from_to": "FROM",
+            "name": "Bernadus",
+            "company_name": null,
+            "analysis": {
+              "f0": 168.8728,
+              "speechrate": 5.6404,
+              "variance": 34.752,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          },
+          {
+            "id": "0191dfa3-506c-b178-ab3c-7d6e3796bd33",
+            "from_to": "TO",
+            "name": "Hilma Azizah",
+            "company_name": null,
+            "analysis": {
+              "f0": 242.8186,
+              "speechrate": 10.2378,
+              "variance": 15.9175,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "Bernadus",
+            "creator_type": "TENANT_USER",
+            "value": "CS Test Call"
+          }
+        ],
+        "comments": [],
+        "keywords": [],
+        "phrases": [
+          {
+            "participant_id": "0191dfa3-506c-f256-47c4-4eebe2e61772",
+            "raw": [
+              {
+                "order": 0,
+                "phrase": " Halo? Ah, test call, test call.",
+                "phrase_nofiller": " Halo? Ah, test call, test call.",
+                "start_at": 0.15,
+                "end_at": 7.34,
+                "filler_num": 0
+              },
+              {
+                "order": 3,
+                "phrase": " Transkripsi minimal durasi berapa lama?",
+                "phrase_nofiller": " Transkripsi minimal durasi berapa lama?",
+                "start_at": 7.75,
+                "end_at": 17.975,
+                "filler_num": 0
+              },
+              {
+                "order": 5,
+                "phrase": " untuk bisa mentranskrip",
+                "phrase_nofiller": " untuk bisa mentranskrip",
+                "start_at": 20.175,
+                "end_at": 23.795,
+                "filler_num": 0
+              },
+              {
+                "order": 7,
+                "phrase": " Hmm...",
+                "phrase_nofiller": " Hmm...",
+                "start_at": 28.735,
+                "end_at": 29.835,
+                "filler_num": 0
+              },
+              {
+                "order": 9,
+                "phrase": " oke oke oke",
+                "phrase_nofiller": " oke oke oke",
+                "start_at": 34.205,
+                "end_at": 35.27,
+                "filler_num": 0
+              },
+              {
+                "order": 10,
+                "phrase": " Ya sudah, sebentar lagi, semenit deh.",
+                "phrase_nofiller": " Ya sudah, sebentar lagi, semenit deh.",
+                "start_at": 36.2,
+                "end_at": 38.585,
+                "filler_num": 0
+              },
+              {
+                "order": 12,
+                "phrase": " Harusnya 50 detik saja sudah cukup.",
+                "phrase_nofiller": " Harusnya 50 detik saja sudah cukup.",
+                "start_at": 47.5,
+                "end_at": 52.38,
+                "filler_num": 0
+              },
+              {
+                "order": 14,
+                "phrase": " Yaudah, yaudah, aku kutiah. Bye, namastah.",
+                "phrase_nofiller": " Yaudah, yaudah, aku kutiah. Bye, namastah.",
+                "start_at": 53.75,
+                "end_at": 57.54,
+                "filler_num": 0
+              }
+            ],
+            "summary": []
+          },
+          {
+            "participant_id": "0191dfa3-506c-b178-ab3c-7d6e3796bd33",
+            "raw": [
+              {
+                "order": 1,
+                "phrase": " Halo.",
+                "phrase_nofiller": " Halo.",
+                "start_at": 1.455,
+                "end_at": 3.28,
+                "filler_num": 0
+              },
+              {
+                "order": 2,
+                "phrase": " Oh, oke oke.",
+                "phrase_nofiller": " Oh, oke oke.",
+                "start_at": 6.86,
+                "end_at": 8.515,
+                "filler_num": 0
+              },
+              {
+                "order": 4,
+                "phrase": " Transkripsi",
+                "phrase_nofiller": " Transkripsi",
+                "start_at": 18.96,
+                "end_at": 20.165,
+                "filler_num": 0
+              },
+              {
+                "order": 6,
+                "phrase": " Oh, gak ada minimal durasi sih, Pak, kalau transkripsinya?",
+                "phrase_nofiller": " Oh, gak ada minimal durasi sih, Pak, kalau transkripsinya?",
+                "start_at": 23.6,
+                "end_at": 28.43,
+                "filler_num": 0
+              },
+              {
+                "order": 8,
+                "phrase": " sepenting apapun akan ditranskrip selama ada conversation-nya.",
+                "phrase_nofiller": " sepenting apapun akan ditranskrip selama ada conversation-nya.",
+                "start_at": 29.02,
+                "end_at": 33.735,
+                "filler_num": 0
+              },
+              {
+                "order": 11,
+                "phrase": " Oke.",
+                "phrase_nofiller": " Oke.",
+                "start_at": 37.575,
+                "end_at": 40.635,
+                "filler_num": 0
+              },
+              {
+                "order": 13,
+                "phrase": " Hmm...",
+                "phrase_nofiller": " Hmm...",
+                "start_at": 52.3,
+                "end_at": 53.775,
+                "filler_num": 0
+              },
+              {
+                "order": 15,
+                "phrase": " Oke, bye.",
+                "phrase_nofiller": " Oke, bye.",
+                "start_at": 56.6,
+                "end_at": 58.465,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 0,
+                "phrase": " Oh, gak ada minimal durasi sih, Pak, kalau transkripsinya?",
+                "phrase_nofiller": " Oh, gak ada minimal durasi sih, Pak, kalau transkripsinya?",
+                "start_at": 23.6,
+                "end_at": 28.43,
+                "filler_num": null
+              },
+              {
+                "order": 1,
+                "phrase": " sepenting apapun akan ditranskrip selama ada conversation-nya.",
+                "phrase_nofiller": " sepenting apapun akan ditranskrip selama ada conversation-nya.",
+                "start_at": 29.02,
+                "end_at": 33.735,
+                "filler_num": null
+              }
+            ]
+          }
+        ],
+        "speech_recognition": {
+          "raw": "0:00 (Operator)  Halo? Ah, test call, test call.\n0:01 (Customer)  Halo.\n0:06 (Customer)  Oh, oke oke.\n0:07 (Operator)  Transkripsi minimal durasi berapa lama?\n0:18 (Customer)  Transkripsi\n0:20 (Operator)  untuk bisa mentranskrip\n0:23 (Customer)  Oh, gak ada minimal durasi sih, Pak, kalau transkripsinya?\n0:28 (Operator)  Hmm...\n0:29 (Customer)  sepenting apapun akan ditranskrip selama ada conversation-nya.\n0:34 (Operator)  oke oke oke\n0:36 (Operator)  Ya sudah, sebentar lagi, semenit deh.\n0:37 (Customer)  Oke.\n0:47 (Operator)  Harusnya 50 detik saja sudah cukup.\n0:52 (Customer)  Hmm...\n0:53 (Operator)  Yaudah, yaudah, aku kutiah. Bye, namastah.\n0:56 (Customer)  Oke, bye.",
+          "summary": "0:23 (Customer)  Oh, gak ada minimal durasi sih, Pak, kalau transkripsinya?\n0:29 (Customer)  sepenting apapun akan ditranskrip selama ada conversation-nya."
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T06:06:49.688Z
+Payload: {
+  "call": {
+    "id": "48bfe347-8c69-4fa8-a60b-b598e9420a9d",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "48bfe347-8c69-4fa8-a60b-b598e9420a9d",
+        "dial_starts_at": "2024-09-11T06:00:16+00:00",
+        "dial_answered_at": "2024-09-11T06:00:21+00:00",
+        "dial_ends_at": "2024-09-11T06:04:38+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "EXTENSION",
+        "circuit_number": null,
+        "circuit_name": null,
+        "from_number": "140",
+        "to_number": "110",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 14.66147859922179,
+          "tlr": 0.6499,
+          "rally_count": 29,
+          "overlap_count": 0,
+          "silence_count": 4,
+          "silence_positions": [
+            [
+              89.92,
+              99.26
+            ],
+            [
+              116.4,
+              121.54
+            ],
+            [
+              127.12,
+              133.96
+            ],
+            [
+              136.3,
+              139.95
+            ]
+          ],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191dfab-192a-3bca-1cb2-80efcc08f0a5",
+            "from_to": "FROM",
+            "name": "Hilma Azizah",
+            "company_name": null,
+            "analysis": {
+              "f0": 239.6554,
+              "speechrate": 9.8179,
+              "variance": 15.4363,
+              "filler_count": 0,
+              "positive_score": 0.14545454545454548,
+              "negative_score": 0.18181818181818182
+            }
+          },
+          {
+            "id": "0191dfab-192b-7b0e-8507-8082163bc305",
+            "from_to": "TO",
+            "name": "rahmi",
+            "company_name": null,
+            "analysis": {
+              "f0": 217.8019,
+              "speechrate": 9.8048,
+              "variance": 18.6968,
+              "filler_count": 0,
+              "positive_score": 0.021428571428571432,
+              "negative_score": 0.04285714285714286
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "Hilma Azizah",
+            "creator_type": "TENANT_USER",
+            "value": "Support Test"
+          }
+        ],
+        "comments": [],
+        "keywords": [
+          {
+            "starts_at": 9,
+            "participant_id": "0191dfab-192b-7b0e-8507-8082163bc305",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 38,
+            "participant_id": "0191dfab-192b-7b0e-8507-8082163bc305",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 7,
+            "participant_id": "0191dfab-192a-3bca-1cb2-80efcc08f0a5",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 178,
+            "participant_id": "0191dfab-192a-3bca-1cb2-80efcc08f0a5",
+            "value": "dua"
+          },
+          {
+            "starts_at": 186,
+            "participant_id": "0191dfab-192a-3bca-1cb2-80efcc08f0a5",
+            "value": "dua"
+          }
+        ],
+        "phrases": [
+          {
+            "participant_id": "0191dfab-192a-3bca-1cb2-80efcc08f0a5",
+            "raw": [
+              {
+                "order": 0,
+                "phrase": " Halo, biar aku...",
+                "phrase_nofiller": " Halo, biar aku...",
+                "start_at": 3.3,
+                "end_at": 5.295,
+                "filler_num": 0
+              },
+              {
+                "order": 2,
+                "phrase": " Barahmi nanti update mau aku duluan apa Barahmi duluan",
+                "phrase_nofiller": " Barahmi nanti update mau aku duluan apa Barahmi duluan",
+                "start_at": 7.53,
+                "end_at": 12.605,
+                "filler_num": 0
+              },
+              {
+                "order": 5,
+                "phrase": " Oke deh, berarti aku mau jelasin Zendesk sama",
+                "phrase_nofiller": " Oke deh, berarti aku mau jelasin Zendesk sama",
+                "start_at": 14.165,
+                "end_at": 20.255,
+                "filler_num": 0
+              },
+              {
+                "order": 7,
+                "phrase": " Oh, oke oke",
+                "phrase_nofiller": " Oh, oke oke",
+                "start_at": 28.995,
+                "end_at": 31.41,
+                "filler_num": 0
+              },
+              {
+                "order": 9,
+                "phrase": " enggak langsung maunya langsung ke dashboard",
+                "phrase_nofiller": " enggak langsung maunya langsung ke dashboard",
+                "start_at": 32.705,
+                "end_at": 38.62,
+                "filler_num": 0
+              },
+              {
+                "order": 13,
+                "phrase": " Audionation. Oke, oke.",
+                "phrase_nofiller": " Audionation. Oke, oke.",
+                "start_at": 47.335,
+                "end_at": 50.155,
+                "filler_num": 0
+              },
+              {
+                "order": 15,
+                "phrase": " Enggak, aku di rumah. Ih, mager banget sholat tadi pagi.",
+                "phrase_nofiller": " Enggak, aku di rumah. Ih, mager banget sholat tadi pagi.",
+                "start_at": 53.9,
+                "end_at": 61.44,
+                "filler_num": 0
+              },
+              {
+                "order": 16,
+                "phrase": " Mendung gitu mbak, yaudah sih dimbarang nih",
+                "phrase_nofiller": " Mendung gitu mbak, yaudah sih dimbarang nih",
+                "start_at": 61.865,
+                "end_at": 64.725,
+                "filler_num": 0
+              },
+              {
+                "order": 18,
+                "phrase": " Oh iya, tadi pagi aku mendung banget jadi aku mager.",
+                "phrase_nofiller": " Oh iya, tadi pagi aku mendung banget jadi aku mager.",
+                "start_at": 66.5,
+                "end_at": 71.675,
+                "filler_num": 0
+              },
+              {
+                "order": 21,
+                "phrase": " Ga tau juga lagi.",
+                "phrase_nofiller": " Ga tau juga lagi.",
+                "start_at": 85.03,
+                "end_at": 86.915,
+                "filler_num": 0
+              },
+              {
+                "order": 22,
+                "phrase": " bareng midi handphone ini",
+                "phrase_nofiller": " bareng midi handphone ini",
+                "start_at": 98.265,
+                "end_at": 100.99,
+                "filler_num": 0
+              },
+              {
+                "order": 24,
+                "phrase": " Oke, ini dia yang kelima",
+                "phrase_nofiller": " Oke, ini dia yang kelima",
+                "start_at": 103.52,
+                "end_at": 105.26,
+                "filler_num": 0
+              },
+              {
+                "order": 25,
+                "phrase": " soalnya tadi handphonenya tulisannya available",
+                "phrase_nofiller": " soalnya tadi handphonenya tulisannya available",
+                "start_at": 105.77,
+                "end_at": 109.165,
+                "filler_num": 0
+              },
+              {
+                "order": 28,
+                "phrase": " oooohhh",
+                "phrase_nofiller": " oooohhh",
+                "start_at": 114.5,
+                "end_at": 116.395,
+                "filler_num": 0
+              },
+              {
+                "order": 33,
+                "phrase": " Udah jadi kayaknya yang udah lama banget itu kan sempat mereka kirim file itu mbak yang katanya suruh upload di zendesnya",
+                "phrase_nofiller": " Udah jadi kayaknya yang udah lama banget itu kan sempat mereka kirim file itu mbak yang katanya suruh upload di zendesnya",
+                "start_at": 150.535,
+                "end_at": 161.88,
+                "filler_num": 0
+              },
+              {
+                "order": 34,
+                "phrase": " Terus tulisannya itu key access-nya nggak valid, padahal selama proses instalasi itu aku nggak diminta key access sama sekali. Kayaknya jadi di apps-nya itu udah ada key access-nya gitu kan, dan kayaknya key access-nya itu salah.",
+                "phrase_nofiller": " Terus tulisannya itu key access-nya nggak valid, padahal selama proses instalasi itu aku nggak diminta key access sama sekali. Kayaknya jadi di apps-nya itu udah ada key access-nya gitu kan, dan kayaknya key access-nya itu salah.",
+                "start_at": 162.285,
+                "end_at": 177.515,
+                "filler_num": 0
+              },
+              {
+                "order": 35,
+                "phrase": " Terus kemarin aku bilang ke Heihei Ciro dari tim Zendesk itu baru feedback itu kayak dua minggu setelahnya lagi kan.",
+                "phrase_nofiller": " Terus kemarin aku bilang ke Heihei Ciro dari tim Zendesk itu baru feedback itu kayak dua minggu setelahnya lagi kan.",
+                "start_at": 178.815,
+                "end_at": 186.11,
+                "filler_num": 0
+              },
+              {
+                "order": 36,
+                "phrase": " Dan dua minggu setelahnya lagi dia ngasih file yang baru. Kayaknya file yang baru itu aksesnya sudah benar.",
+                "phrase_nofiller": " Dan dua minggu setelahnya lagi dia ngasih file yang baru. Kayaknya file yang baru itu aksesnya sudah benar.",
+                "start_at": 186.49,
+                "end_at": 193.345,
+                "filler_num": 0
+              },
+              {
+                "order": 39,
+                "phrase": " Oh iya.",
+                "phrase_nofiller": " Oh iya.",
+                "start_at": 201.21,
+                "end_at": 202.44,
+                "filler_num": 0
+              },
+              {
+                "order": 42,
+                "phrase": " Tapi ini juga kayaknya, waktu itu kan buat solofix, eh, buat kustomernya solofix gitu kan mbak, tapi si solofixnya malah mau bawa, apa namanya,",
+                "phrase_nofiller": " Tapi ini juga kayaknya, waktu itu kan buat solofix, eh, buat kustomernya solofix gitu kan mbak, tapi si solofixnya malah mau bawa, apa namanya,",
+                "start_at": 215.4,
+                "end_at": 227.9,
+                "filler_num": 0
+              },
+              {
+                "order": 43,
+                "phrase": " bawa solusi lain jadi kayak nggak mau pakai Zendesk juga ujung-ujungnya.",
+                "phrase_nofiller": " bawa solusi lain jadi kayak nggak mau pakai Zendesk juga ujung-ujungnya.",
+                "start_at": 228.61,
+                "end_at": 233.475,
+                "filler_num": 0
+              },
+              {
+                "order": 47,
+                "phrase": " sebaiknya ada dokumentasinya",
+                "phrase_nofiller": " sebaiknya ada dokumentasinya",
+                "start_at": 240.905,
+                "end_at": 244.89,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 0,
+                "phrase": " Barahmi nanti update mau aku duluan apa Barahmi duluan",
+                "phrase_nofiller": " Barahmi nanti update mau aku duluan apa Barahmi duluan",
+                "start_at": 7.53,
+                "end_at": 12.605,
+                "filler_num": null
+              },
+              {
+                "order": 4,
+                "phrase": " Enggak, aku di rumah. Ih, mager banget sholat tadi pagi.",
+                "phrase_nofiller": " Enggak, aku di rumah. Ih, mager banget sholat tadi pagi.",
+                "start_at": 53.9,
+                "end_at": 61.44,
+                "filler_num": null
+              },
+              {
+                "order": 7,
+                "phrase": " Udah jadi kayaknya yang udah lama banget itu kan sempat mereka kirim file itu mbak yang katanya suruh upload di zendesnya",
+                "phrase_nofiller": " Udah jadi kayaknya yang udah lama banget itu kan sempat mereka kirim file itu mbak yang katanya suruh upload di zendesnya",
+                "start_at": 150.535,
+                "end_at": 161.88,
+                "filler_num": null
+              },
+              {
+                "order": 8,
+                "phrase": " Tapi ini juga kayaknya, waktu itu kan buat solofix, eh, buat kustomernya solofix gitu kan mbak, tapi si solofixnya malah mau bawa, apa namanya,",
+                "phrase_nofiller": " Tapi ini juga kayaknya, waktu itu kan buat solofix, eh, buat kustomernya solofix gitu kan mbak, tapi si solofixnya malah mau bawa, apa namanya,",
+                "start_at": 215.4,
+                "end_at": 227.9,
+                "filler_num": null
+              }
+            ]
+          },
+          {
+            "participant_id": "0191dfab-192b-7b0e-8507-8082163bc305",
+            "raw": [
+              {
+                "order": 1,
+                "phrase": " Halo...",
+                "phrase_nofiller": " Halo...",
+                "start_at": 4.87,
+                "end_at": 6.51,
+                "filler_num": 0
+              },
+              {
+                "order": 3,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 9.91,
+                "end_at": 11.235,
+                "filler_num": 0
+              },
+              {
+                "order": 4,
+                "phrase": " Hilmah dulu boleh",
+                "phrase_nofiller": " Hilmah dulu boleh",
+                "start_at": 11.855,
+                "end_at": 14.235,
+                "filler_num": 0
+              },
+              {
+                "order": 6,
+                "phrase": " Boleh, boleh. Jelasin aja, soalnya yang di Mitel Mobile Update, aku juga nggak terlalu banyak sih.",
+                "phrase_nofiller": " Boleh, boleh. Jelasin aja, soalnya yang di Mitel Mobile Update, aku juga nggak terlalu banyak sih.",
+                "start_at": 22.755,
+                "end_at": 29.145,
+                "filler_num": 0
+              },
+              {
+                "order": 8,
+                "phrase": " Mengenai moda deh.",
+                "phrase_nofiller": " Mengenai moda deh.",
+                "start_at": 30.62,
+                "end_at": 31.665,
+                "filler_num": 0
+              },
+              {
+                "order": 10,
+                "phrase": " Banyak banget memo.",
+                "phrase_nofiller": " Banyak banget memo.",
+                "start_at": 36.12,
+                "end_at": 37.455,
+                "filler_num": 0
+              },
+              {
+                "order": 11,
+                "phrase": " Nanti kalau udah itu buatin decknya ya sama videonya ya.",
+                "phrase_nofiller": " Nanti kalau udah itu buatin decknya ya sama videonya ya.",
+                "start_at": 38.17,
+                "end_at": 42.135,
+                "filler_num": 0
+              },
+              {
+                "order": 12,
+                "phrase": " sama update team di itu di product update biasa di nation",
+                "phrase_nofiller": " sama update team di itu di product update biasa di nation",
+                "start_at": 43.59,
+                "end_at": 48.475,
+                "filler_num": 0
+              },
+              {
+                "order": 14,
+                "phrase": " Lagi dimana Hilma, ngantor gak?",
+                "phrase_nofiller": " Lagi dimana Hilma, ngantor gak?",
+                "start_at": 51.95,
+                "end_at": 55.54,
+                "filler_num": 0
+              },
+              {
+                "order": 17,
+                "phrase": " Di sini panas.",
+                "phrase_nofiller": " Di sini panas.",
+                "start_at": 65.87,
+                "end_at": 67.77,
+                "filler_num": 0
+              },
+              {
+                "order": 19,
+                "phrase": " Entah, ya Allah tanya Pak Warnad.",
+                "phrase_nofiller": " Entah, ya Allah tanya Pak Warnad.",
+                "start_at": 77.475,
+                "end_at": 80.27,
+                "filler_num": 0
+              },
+              {
+                "order": 20,
+                "phrase": " lagi mau ngupin, whisperin atau gimana ya?",
+                "phrase_nofiller": " lagi mau ngupin, whisperin atau gimana ya?",
+                "start_at": 80.985,
+                "end_at": 84.7,
+                "filler_num": 0
+              },
+              {
+                "order": 23,
+                "phrase": " Nggak, di laptop.",
+                "phrase_nofiller": " Nggak, di laptop.",
+                "start_at": 99.895,
+                "end_at": 104.25,
+                "filler_num": 0
+              },
+              {
+                "order": 26,
+                "phrase": " Oh iya, ya semuanya kok loginin Mitel di Android juga.",
+                "phrase_nofiller": " Oh iya, ya semuanya kok loginin Mitel di Android juga.",
+                "start_at": 109.41,
+                "end_at": 113.97,
+                "filler_num": 0
+              },
+              {
+                "order": 27,
+                "phrase": " Mungkin.",
+                "phrase_nofiller": " Mungkin.",
+                "start_at": 114.3,
+                "end_at": 115.86,
+                "filler_num": 0
+              },
+              {
+                "order": 29,
+                "phrase": " kamu melihatnya sekarang ya?",
+                "phrase_nofiller": " kamu melihatnya sekarang ya?",
+                "start_at": 120.535,
+                "end_at": 122.07,
+                "filler_num": 0
+              },
+              {
+                "order": 30,
+                "phrase": " di mobile juga ya",
+                "phrase_nofiller": " di mobile juga ya",
+                "start_at": 122.995,
+                "end_at": 124.995,
+                "filler_num": 0
+              },
+              {
+                "order": 31,
+                "phrase": " Kemarin Hilma nanya yang Zohodes, yang integrasi Zohodes.",
+                "phrase_nofiller": " Kemarin Hilma nanya yang Zohodes, yang integrasi Zohodes.",
+                "start_at": 139.54,
+                "end_at": 145.09,
+                "filler_num": 0
+              },
+              {
+                "order": 32,
+                "phrase": " sudah jadi di integrasinya.",
+                "phrase_nofiller": " sudah jadi di integrasinya.",
+                "start_at": 146.66,
+                "end_at": 148.785,
+                "filler_num": 0
+              },
+              {
+                "order": 37,
+                "phrase": " Dulu tuh gimana ya aku? Sumpah nggak bisa, terus nyesing tuh sama aku nginfoin ke Ichiro.",
+                "phrase_nofiller": " Dulu tuh gimana ya aku? Sumpah nggak bisa, terus nyesing tuh sama aku nginfoin ke Ichiro.",
+                "start_at": 194.275,
+                "end_at": 200.655,
+                "filler_num": 0
+              },
+              {
+                "order": 38,
+                "phrase": " Untuk kita.",
+                "phrase_nofiller": " Untuk kita.",
+                "start_at": 201.16,
+                "end_at": 202.76,
+                "filler_num": 0
+              },
+              {
+                "order": 40,
+                "phrase": " Waktu itu kayaknya yang kemana, mana ya? Ke JFD.",
+                "phrase_nofiller": " Waktu itu kayaknya yang kemana, mana ya? Ke JFD.",
+                "start_at": 203.49,
+                "end_at": 208.36,
+                "filler_num": 0
+              },
+              {
+                "order": 41,
+                "phrase": " Sambil tes. Aku juga lupa bilang ke Hilmah itu, yang tadi tes.",
+                "phrase_nofiller": " Sambil tes. Aku juga lupa bilang ke Hilmah itu, yang tadi tes.",
+                "start_at": 209.195,
+                "end_at": 213.77,
+                "filler_num": 0
+              },
+              {
+                "order": 44,
+                "phrase": " Terus lo sih, apa dia mau lagi?",
+                "phrase_nofiller": " Terus lo sih, apa dia mau lagi?",
+                "start_at": 234.75,
+                "end_at": 237.065,
+                "filler_num": 0
+              },
+              {
+                "order": 45,
+                "phrase": " tapi gak apa-apa",
+                "phrase_nofiller": " tapi gak apa-apa",
+                "start_at": 237.485,
+                "end_at": 238.99,
+                "filler_num": 0
+              },
+              {
+                "order": 46,
+                "phrase": " Kenting udah bisa kan?",
+                "phrase_nofiller": " Kenting udah bisa kan?",
+                "start_at": 239.82,
+                "end_at": 241.21,
+                "filler_num": 0
+              },
+              {
+                "order": 48,
+                "phrase": " yaudah",
+                "phrase_nofiller": " yaudah",
+                "start_at": 244.77,
+                "end_at": 246.665,
+                "filler_num": 0
+              },
+              {
+                "order": 49,
+                "phrase": " Thank you.",
+                "phrase_nofiller": " Thank you.",
+                "start_at": 252.37,
+                "end_at": 254.68,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 1,
+                "phrase": " Boleh, boleh. Jelasin aja, soalnya yang di Mitel Mobile Update, aku juga nggak terlalu banyak sih.",
+                "phrase_nofiller": " Boleh, boleh. Jelasin aja, soalnya yang di Mitel Mobile Update, aku juga nggak terlalu banyak sih.",
+                "start_at": 22.755,
+                "end_at": 29.145,
+                "filler_num": null
+              },
+              {
+                "order": 2,
+                "phrase": " Nanti kalau udah itu buatin decknya ya sama videonya ya.",
+                "phrase_nofiller": " Nanti kalau udah itu buatin decknya ya sama videonya ya.",
+                "start_at": 38.17,
+                "end_at": 42.135,
+                "filler_num": null
+              },
+              {
+                "order": 3,
+                "phrase": " sama update team di itu di product update biasa di nation",
+                "phrase_nofiller": " sama update team di itu di product update biasa di nation",
+                "start_at": 43.59,
+                "end_at": 48.475,
+                "filler_num": null
+              },
+              {
+                "order": 5,
+                "phrase": " Oh iya, ya semuanya kok loginin Mitel di Android juga.",
+                "phrase_nofiller": " Oh iya, ya semuanya kok loginin Mitel di Android juga.",
+                "start_at": 109.41,
+                "end_at": 113.97,
+                "filler_num": null
+              },
+              {
+                "order": 6,
+                "phrase": " Kemarin Hilma nanya yang Zohodes, yang integrasi Zohodes.",
+                "phrase_nofiller": " Kemarin Hilma nanya yang Zohodes, yang integrasi Zohodes.",
+                "start_at": 139.54,
+                "end_at": 145.09,
+                "filler_num": null
+              }
+            ]
+          }
+        ],
+        "speech_recognition": {
+          "raw": "0:03 (Operator)  Halo, biar aku...\n0:04 (Customer)  Halo...\n0:07 (Operator)  Barahmi nanti update mau aku duluan apa Barahmi duluan\n0:09 (Customer)  Terima kasih.\n0:11 (Customer)  Hilmah dulu boleh\n0:14 (Operator)  Oke deh, berarti aku mau jelasin Zendesk sama\n0:22 (Customer)  Boleh, boleh. Jelasin aja, soalnya yang di Mitel Mobile Update, aku juga nggak terlalu banyak sih.\n0:28 (Operator)  Oh, oke oke\n0:30 (Customer)  Mengenai moda deh.\n0:32 (Operator)  enggak langsung maunya langsung ke dashboard\n0:36 (Customer)  Banyak banget memo.\n0:38 (Customer)  Nanti kalau udah itu buatin decknya ya sama videonya ya.\n0:43 (Customer)  sama update team di itu di product update biasa di nation\n0:47 (Operator)  Audionation. Oke, oke.\n0:51 (Customer)  Lagi dimana Hilma, ngantor gak?\n0:53 (Operator)  Enggak, aku di rumah. Ih, mager banget sholat tadi pagi.\n1:01 (Operator)  Mendung gitu mbak, yaudah sih dimbarang nih\n1:05 (Customer)  Di sini panas.\n1:06 (Operator)  Oh iya, tadi pagi aku mendung banget jadi aku mager.\n1:17 (Customer)  Entah, ya Allah tanya Pak Warnad.\n1:20 (Customer)  lagi mau ngupin, whisperin atau gimana ya?\n1:25 (Operator)  Ga tau juga lagi.\n1:38 (Operator)  bareng midi handphone ini\n1:39 (Customer)  Nggak, di laptop.\n1:43 (Operator)  Oke, ini dia yang kelima\n1:45 (Operator)  soalnya tadi handphonenya tulisannya available\n1:49 (Customer)  Oh iya, ya semuanya kok loginin Mitel di Android juga.\n1:54 (Customer)  Mungkin.\n1:54 (Operator)  oooohhh\n2:00 (Customer)  kamu melihatnya sekarang ya?\n2:02 (Customer)  di mobile juga ya\n2:19 (Customer)  Kemarin Hilma nanya yang Zohodes, yang integrasi Zohodes.\n2:26 (Customer)  sudah jadi di integrasinya.\n2:30 (Operator)  Udah jadi kayaknya yang udah lama banget itu kan sempat mereka kirim file itu mbak yang katanya suruh upload di zendesnya\n2:42 (Operator)  Terus tulisannya itu key access-nya nggak valid, padahal selama proses instalasi itu aku nggak diminta key access sama sekali. Kayaknya jadi di apps-nya itu udah ada key access-nya gitu kan, dan kayaknya key access-nya itu salah.\n2:58 (Operator)  Terus kemarin aku bilang ke Heihei Ciro dari tim Zendesk itu baru feedback itu kayak dua minggu setelahnya lagi kan.\n3:06 (Operator)  Dan dua minggu setelahnya lagi dia ngasih file yang baru. Kayaknya file yang baru itu aksesnya sudah benar.\n3:14 (Customer)  Dulu tuh gimana ya aku? Sumpah nggak bisa, terus nyesing tuh sama aku nginfoin ke Ichiro.\n3:21 (Customer)  Untuk kita.\n3:21 (Operator)  Oh iya.\n3:23 (Customer)  Waktu itu kayaknya yang kemana, mana ya? Ke JFD.\n3:29 (Customer)  Sambil tes. Aku juga lupa bilang ke Hilmah itu, yang tadi tes.\n3:35 (Operator)  Tapi ini juga kayaknya, waktu itu kan buat solofix, eh, buat kustomernya solofix gitu kan mbak, tapi si solofixnya malah mau bawa, apa namanya,\n3:48 (Operator)  bawa solusi lain jadi kayak nggak mau pakai Zendesk juga ujung-ujungnya.\n3:54 (Customer)  Terus lo sih, apa dia mau lagi?\n3:57 (Customer)  tapi gak apa-apa\n3:59 (Customer)  Kenting udah bisa kan?\n4:00 (Operator)  sebaiknya ada dokumentasinya\n4:04 (Customer)  yaudah\n4:12 (Customer)  Thank you.",
+          "summary": "0:07 (Operator)  Barahmi nanti update mau aku duluan apa Barahmi duluan\n0:22 (Customer)  Boleh, boleh. Jelasin aja, soalnya yang di Mitel Mobile Update, aku juga nggak terlalu banyak sih.\n0:38 (Customer)  Nanti kalau udah itu buatin decknya ya sama videonya ya.\n0:43 (Customer)  sama update team di itu di product update biasa di nation\n0:53 (Operator)  Enggak, aku di rumah. Ih, mager banget sholat tadi pagi.\n1:49 (Customer)  Oh iya, ya semuanya kok loginin Mitel di Android juga.\n2:19 (Customer)  Kemarin Hilma nanya yang Zohodes, yang integrasi Zohodes.\n2:30 (Operator)  Udah jadi kayaknya yang udah lama banget itu kan sempat mereka kirim file itu mbak yang katanya suruh upload di zendesnya\n3:35 (Operator)  Tapi ini juga kayaknya, waktu itu kan buat solofix, eh, buat kustomernya solofix gitu kan mbak, tapi si solofixnya malah mau bawa, apa namanya,"
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T06:24:37.036Z
+Payload: {
+  "call": {
+    "id": "42d63065-950c-456e-b849-281f47c1af2d",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "42d63065-950c-456e-b849-281f47c1af2d",
+        "dial_starts_at": "2024-09-11T06:21:53+00:00",
+        "dial_answered_at": "2024-09-11T06:21:57+00:00",
+        "dial_ends_at": "2024-09-11T06:23:05+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "EXTENSION",
+        "circuit_number": null,
+        "circuit_name": null,
+        "from_number": "140",
+        "to_number": "110",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 15,
+          "tlr": 0.741,
+          "rally_count": 8,
+          "overlap_count": 0,
+          "silence_count": 0,
+          "silence_positions": [],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191dfbe-e357-76ae-b326-04131ebc1efa",
+            "from_to": "FROM",
+            "name": "Hilma Azizah",
+            "company_name": null,
+            "analysis": {
+              "f0": 245.5115,
+              "speechrate": 6.0295,
+              "variance": 25.7732,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          },
+          {
+            "id": "0191dfbe-e357-998f-d743-7ae9a4c6c5ca",
+            "from_to": "TO",
+            "name": "rahmi",
+            "company_name": null,
+            "analysis": {
+              "f0": 197.8384,
+              "speechrate": 5.9613,
+              "variance": null,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "Hilma Azizah",
+            "creator_type": "TENANT_USER",
+            "value": "Support Test"
+          }
+        ],
+        "comments": [],
+        "keywords": [
+          {
+            "starts_at": 40,
+            "participant_id": "0191dfbe-e357-998f-d743-7ae9a4c6c5ca",
+            "value": "terima kasih"
+          }
+        ],
+        "phrases": [
+          {
+            "participant_id": "0191dfbe-e357-76ae-b326-04131ebc1efa",
+            "raw": [
+              {
+                "order": 2,
+                "phrase": " Bikin apa ya?",
+                "phrase_nofiller": " Bikin apa ya?",
+                "start_at": 14.065,
+                "end_at": 17.505,
+                "filler_num": 0
+              },
+              {
+                "order": 4,
+                "phrase": " Lagi.",
+                "phrase_nofiller": " Lagi.",
+                "start_at": 35.42,
+                "end_at": 39.64,
+                "filler_num": 0
+              },
+              {
+                "order": 6,
+                "phrase": " Sebenernya mau bikin video Zendesk nya, tapi belum sempet",
+                "phrase_nofiller": " Sebenernya mau bikin video Zendesk nya, tapi belum sempet",
+                "start_at": 45.735,
+                "end_at": 50.95,
+                "filler_num": 0
+              },
+              {
+                "order": 9,
+                "phrase": " Iya, iya tau mbak. Aku aja nyampein barangmu ya.",
+                "phrase_nofiller": " Iya, iya tau mbak. Aku aja nyampein barangmu ya.",
+                "start_at": 56.67,
+                "end_at": 64.6,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 0,
+                "phrase": " Sebenernya mau bikin video Zendesk nya, tapi belum sempet",
+                "phrase_nofiller": " Sebenernya mau bikin video Zendesk nya, tapi belum sempet",
+                "start_at": 45.735,
+                "end_at": 50.95,
+                "filler_num": null
+              }
+            ]
+          },
+          {
+            "participant_id": "0191dfbe-e357-998f-d743-7ae9a4c6c5ca",
+            "raw": [
+              {
+                "order": 0,
+                "phrase": " .",
+                "phrase_nofiller": " .",
+                "start_at": 0.15,
+                "end_at": 1.62,
+                "filler_num": 0
+              },
+              {
+                "order": 1,
+                "phrase": " Halo, Yoma.",
+                "phrase_nofiller": " Halo, Yoma.",
+                "start_at": 4.03,
+                "end_at": 6.775,
+                "filler_num": 0
+              },
+              {
+                "order": 3,
+                "phrase": " hehehe",
+                "phrase_nofiller": " hehehe",
+                "start_at": 15.025,
+                "end_at": 16.215,
+                "filler_num": 0
+              },
+              {
+                "order": 5,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 40.245,
+                "end_at": 41.83,
+                "filler_num": 0
+              },
+              {
+                "order": 7,
+                "phrase": " I feel you.",
+                "phrase_nofiller": " I feel you.",
+                "start_at": 50.495,
+                "end_at": 52.93,
+                "filler_num": 0
+              },
+              {
+                "order": 8,
+                "phrase": " buat bikin video gitu",
+                "phrase_nofiller": " buat bikin video gitu",
+                "start_at": 54.055,
+                "end_at": 56.435,
+                "filler_num": 0
+              },
+              {
+                "order": 10,
+                "phrase": " Ada aja",
+                "phrase_nofiller": " Ada aja",
+                "start_at": 56.72,
+                "end_at": 57.975,
+                "filler_num": 0
+              },
+              {
+                "order": 11,
+                "phrase": " Bye...",
+                "phrase_nofiller": " Bye...",
+                "start_at": 63.985,
+                "end_at": 65.175,
+                "filler_num": 0
+              }
+            ],
+            "summary": []
+          }
+        ],
+        "speech_recognition": {
+          "raw": "0:00 (Customer)  .\n0:04 (Customer)  Halo, Yoma.\n0:14 (Operator)  Bikin apa ya?\n0:15 (Customer)  hehehe\n0:35 (Operator)  Lagi.\n0:40 (Customer)  Terima kasih.\n0:45 (Operator)  Sebenernya mau bikin video Zendesk nya, tapi belum sempet\n0:50 (Customer)  I feel you.\n0:54 (Customer)  buat bikin video gitu\n0:56 (Operator)  Iya, iya tau mbak. Aku aja nyampein barangmu ya.\n0:56 (Customer)  Ada aja\n1:03 (Customer)  Bye...",
+          "summary": "0:45 (Operator)  Sebenernya mau bikin video Zendesk nya, tapi belum sempet"
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T06:27:53.473Z
+Payload: {
+  "call": {
+    "id": "1360e470-bda2-4b86-bf7c-0834e4ce2e58",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "1360e470-bda2-4b86-bf7c-0834e4ce2e58",
+        "dial_starts_at": "2024-09-11T06:26:44+00:00",
+        "dial_answered_at": null,
+        "dial_ends_at": "2024-09-11T06:27:48+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02150913400",
+        "circuit_name": "02150913400",
+        "from_number": null,
+        "to_number": "+6281290218855",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": null,
+        "participants": [
+          {
+            "id": "0191dfc3-54ed-6e93-f03e-72203cd769f1",
+            "from_to": "FROM",
+            "name": "Mazaya",
+            "company_name": null,
+            "analysis": null
+          },
+          {
+            "id": "0191dfc3-54ed-9d1c-e0af-2b8d9c354d12",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": null
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:11:17.306Z
+Payload: {
+  "call": {
+    "id": "5067ea0b-c3ed-46e4-aee3-35aa3e038fcd",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "5067ea0b-c3ed-46e4-aee3-35aa3e038fcd",
+        "dial_starts_at": "2024-09-11T06:48:42+00:00",
+        "dial_answered_at": "2024-09-11T06:48:51+00:00",
+        "dial_ends_at": "2024-09-11T06:57:52+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02150913400",
+        "circuit_name": "02150913400",
+        "from_number": null,
+        "to_number": "+628161430545",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 50.672828096118295,
+          "tlr": 0.6489,
+          "rally_count": 53,
+          "overlap_count": 1,
+          "silence_count": 2,
+          "silence_positions": [
+            [
+              0,
+              3.66
+            ],
+            [
+              61.64,
+              70.94
+            ]
+          ],
+          "overlap_positions": [
+            [
+              51.58,
+              54.02
+            ]
+          ]
+        },
+        "participants": [
+          {
+            "id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "from_to": "FROM",
+            "name": "Mazaya",
+            "company_name": null,
+            "analysis": {
+              "f0": 245.1275,
+              "speechrate": 12.8656,
+              "variance": 17.1915,
+              "filler_count": 0,
+              "positive_score": 0.13600000000000007,
+              "negative_score": 0.024
+            }
+          },
+          {
+            "id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": {
+              "f0": 139.1438,
+              "speechrate": 11.6882,
+              "variance": 27.4415,
+              "filler_count": 0,
+              "positive_score": 0.07777777777777778,
+              "negative_score": 0.08333333333333334
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "Mazaya",
+            "creator_type": "TENANT_USER",
+            "value": "[BDR/SDR] Appointment made"
+          },
+          {
+            "created_by": "",
+            "creator_type": "SYSTEM",
+            "value": "Negative weak (Auto call memo)"
+          }
+        ],
+        "comments": [],
+        "keywords": [
+          {
+            "starts_at": 29,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 48,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "satu"
+          },
+          {
+            "starts_at": 69,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "lima"
+          },
+          {
+            "starts_at": 69,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 69,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "satu"
+          },
+          {
+            "starts_at": 97,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "satu"
+          },
+          {
+            "starts_at": 117,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "satu"
+          },
+          {
+            "starts_at": 171,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "satu"
+          },
+          {
+            "starts_at": 197,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 215,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 258,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 302,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "satu"
+          },
+          {
+            "starts_at": 364,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 494,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "satu"
+          },
+          {
+            "starts_at": 502,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 514,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 534,
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 6,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "perkenalkan"
+          },
+          {
+            "starts_at": 34,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "ada kebutuhan"
+          },
+          {
+            "starts_at": 34,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "satu"
+          },
+          {
+            "starts_at": 121,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 149,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 149,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "satu"
+          },
+          {
+            "starts_at": 186,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "online"
+          },
+          {
+            "starts_at": 206,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "online"
+          },
+          {
+            "starts_at": 206,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "online meeting"
+          },
+          {
+            "starts_at": 231,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "email"
+          },
+          {
+            "starts_at": 231,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 261,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 270,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 275,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 318,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "lima"
+          },
+          {
+            "starts_at": 318,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "saya konfirmasi lagi"
+          },
+          {
+            "starts_at": 371,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 391,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 411,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 431,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "satu"
+          },
+          {
+            "starts_at": 451,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 471,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "email"
+          },
+          {
+            "starts_at": 519,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 526,
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "value": "terima kasih"
+          }
+        ],
+        "phrases": [
+          {
+            "participant_id": "0191dfd7-6e2d-0ef1-913e-7e021b4bed14",
+            "raw": [
+              {
+                "order": 0,
+                "phrase": " Halo, selamat siang",
+                "phrase_nofiller": " Halo, selamat siang",
+                "start_at": 2.655,
+                "end_at": 4.195,
+                "filler_num": 0
+              },
+              {
+                "order": 2,
+                "phrase": " Bapak perkenalkan saya Mazaya dari Mitang, ini dengan Bapak Benek Dityus dari K Club.",
+                "phrase_nofiller": " Bapak perkenalkan saya Mazaya dari Mitang, ini dengan Bapak Benek Dityus dari K Club.",
+                "start_at": 6.045,
+                "end_at": 11.93,
+                "filler_num": 0
+              },
+              {
+                "order": 4,
+                "phrase": " Saya Benediktus.",
+                "phrase_nofiller": " Saya Benediktus.",
+                "start_at": 14.17,
+                "end_at": 15.625,
+                "filler_num": 0
+              },
+              {
+                "order": 5,
+                "phrase": " Oke, baik betul ya pak ya.",
+                "phrase_nofiller": " Oke, baik betul ya pak ya.",
+                "start_at": 17.66,
+                "end_at": 19.225,
+                "filler_num": 0
+              },
+              {
+                "order": 6,
+                "phrase": " Eh iya Bapak, saya ingin konfirmasi, sebelumnya Bapak menyisikan data atas keterlibatannya dengan Mital setelah melihat kami di Google, apakah betul?",
+                "phrase_nofiller": " Eh iya Bapak, saya ingin konfirmasi, sebelumnya Bapak menyisikan data atas keterlibatannya dengan Mital setelah melihat kami di Google, apakah betul?",
+                "start_at": 20.42,
+                "end_at": 29.42,
+                "filler_num": 0
+              },
+              {
+                "order": 9,
+                "phrase": " Oke, baik. Mungkin saat ini apakah memang sedang ada kebutuhan dengan salah satu produk dari kami, pak?",
+                "phrase_nofiller": " Oke, baik. Mungkin saat ini apakah memang sedang ada kebutuhan dengan salah satu produk dari kami, pak?",
+                "start_at": 34.61,
+                "end_at": 40.33,
+                "filler_num": 0
+              },
+              {
+                "order": 13,
+                "phrase": " Mhm, mhm",
+                "phrase_nofiller": " Mhm, mhm",
+                "start_at": 50.575,
+                "end_at": 54.025,
+                "filler_num": 0
+              },
+              {
+                "order": 16,
+                "phrase": " Mereka ingin berjalan",
+                "phrase_nofiller": " Mereka ingin berjalan",
+                "start_at": 93.24,
+                "end_at": 94.4,
+                "filler_num": 0
+              },
+              {
+                "order": 18,
+                "phrase": " Bye bye..",
+                "phrase_nofiller": " Bye bye..",
+                "start_at": 100.61,
+                "end_at": 102.92,
+                "filler_num": 0
+              },
+              {
+                "order": 19,
+                "phrase": " Hmm...",
+                "phrase_nofiller": " Hmm...",
+                "start_at": 106.58,
+                "end_at": 107.77,
+                "filler_num": 0
+              },
+              {
+                "order": 21,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 121.73,
+                "end_at": 123.11,
+                "filler_num": 0
+              },
+              {
+                "order": 22,
+                "phrase": " untuk masking nomornya pak ya.",
+                "phrase_nofiller": " untuk masking nomornya pak ya.",
+                "start_at": 137.085,
+                "end_at": 139.99,
+                "filler_num": 0
+              },
+              {
+                "order": 23,
+                "phrase": " Oke, iya pak. Untuk masking number sendiri, mohon maaf, tunggu sebentar ya, saya akan cek kembali track masking number karena memang",
+                "phrase_nofiller": " Oke, iya pak. Untuk masking number sendiri, mohon maaf, tunggu sebentar ya, saya akan cek kembali track masking number karena memang",
+                "start_at": 141.125,
+                "end_at": 148.645,
+                "filler_num": 0
+              },
+              {
+                "order": 24,
+                "phrase": " dari kami ini untuk masing-masing number sendiri masih memungkinkan, Pak, untuk dilakukan. Cuma nanti saya akan konfirmasi kembali terkait ini dan untuk terkait call center sendiri, Pak, jadi nomornya sendiri memang akan digunakan hanya satu atau nantinya Bapak juga akan memakai beberapa nomor, Pak.",
+                "phrase_nofiller": " dari kami ini untuk masing-masing number sendiri masih memungkinkan, Pak, untuk dilakukan. Cuma nanti saya akan konfirmasi kembali terkait ini dan untuk terkait call center sendiri, Pak, jadi nomornya sendiri memang akan digunakan hanya satu atau nantinya Bapak juga akan memakai beberapa nomor, Pak.",
+                "start_at": 149.365,
+                "end_at": 169.36,
+                "filler_num": 0
+              },
+              {
+                "order": 25,
+                "phrase": " Seperti itu.",
+                "phrase_nofiller": " Seperti itu.",
+                "start_at": 169.365,
+                "end_at": 170.495,
+                "filler_num": 0
+              },
+              {
+                "order": 27,
+                "phrase": " yaudah",
+                "phrase_nofiller": " yaudah",
+                "start_at": 175.255,
+                "end_at": 177.185,
+                "filler_num": 0
+              },
+              {
+                "order": 28,
+                "phrase": " Oke, baik Pak. Mungkin kalau untuk penjelasan yang lebih teknikal seperti itu bisa kami jelaskan pada saat demo meeting, Pak. Jadi untuk demo meetingnya sendiri, tim kami akan presentasi mengenai keseluruhan dashboard mental seperti apa, fitur, lalu teknikanya seperti apa, dan solusi. Bapak juga bisa coba demogratis terlebih dahulu melalui online.",
+                "phrase_nofiller": " Oke, baik Pak. Mungkin kalau untuk penjelasan yang lebih teknikal seperti itu bisa kami jelaskan pada saat demo meeting, Pak. Jadi untuk demo meetingnya sendiri, tim kami akan presentasi mengenai keseluruhan dashboard mental seperti apa, fitur, lalu teknikanya seperti apa, dan solusi. Bapak juga bisa coba demogratis terlebih dahulu melalui online.",
+                "start_at": 186.325,
+                "end_at": 206.32,
+                "filler_num": 0
+              },
+              {
+                "order": 31,
+                "phrase": " online meeting dengan tim kami. Mungkin bisa saya jadwalkan, Pak, di hari ini?",
+                "phrase_nofiller": " online meeting dengan tim kami. Mungkin bisa saya jadwalkan, Pak, di hari ini?",
+                "start_at": 206.325,
+                "end_at": 210.365,
+                "filler_num": 0
+              },
+              {
+                "order": 33,
+                "phrase": " Di hari ini bisa saya jadwakan Pak, mungkin di sekitar jam 4 sore.",
+                "phrase_nofiller": " Di hari ini bisa saya jadwakan Pak, mungkin di sekitar jam 4 sore.",
+                "start_at": 212.4,
+                "end_at": 216.03,
+                "filler_num": 0
+              },
+              {
+                "order": 35,
+                "phrase": " Oke, baik",
+                "phrase_nofiller": " Oke, baik",
+                "start_at": 216.38,
+                "end_at": 217.425,
+                "filler_num": 0
+              },
+              {
+                "order": 39,
+                "phrase": " Oke, Pak. Kalau untuk saat ini jam 4 sore di WIB, Pak?",
+                "phrase_nofiller": " Oke, Pak. Kalau untuk saat ini jam 4 sore di WIB, Pak?",
+                "start_at": 227.07,
+                "end_at": 230.355,
+                "filler_num": 0
+              },
+              {
+                "order": 41,
+                "phrase": " Iya, bisa ya Pak. Oke, bagaimana bisa langsung dilakukan? Nanti untuk link meetingnya akan saya berikan melalui email ya Pak.",
+                "phrase_nofiller": " Iya, bisa ya Pak. Oke, bagaimana bisa langsung dilakukan? Nanti untuk link meetingnya akan saya berikan melalui email ya Pak.",
+                "start_at": 231.5,
+                "end_at": 239.075,
+                "filler_num": 0
+              },
+              {
+                "order": 43,
+                "phrase": " Oke, baik Pak. Mungkin kalau untuk telephone existing yang sedang digunakan saat ini, menggunakan telephone apa Pak?",
+                "phrase_nofiller": " Oke, baik Pak. Mungkin kalau untuk telephone existing yang sedang digunakan saat ini, menggunakan telephone apa Pak?",
+                "start_at": 239.865,
+                "end_at": 246.41,
+                "filler_num": 0
+              },
+              {
+                "order": 45,
+                "phrase": " Oh, oke.",
+                "phrase_nofiller": " Oh, oke.",
+                "start_at": 249.04,
+                "end_at": 251.905,
+                "filler_num": 0
+              },
+              {
+                "order": 47,
+                "phrase": " Oke, thanks.",
+                "phrase_nofiller": " Oke, thanks.",
+                "start_at": 258.25,
+                "end_at": 260.595,
+                "filler_num": 0
+              },
+              {
+                "order": 49,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 261.48,
+                "end_at": 263.125,
+                "filler_num": 0
+              },
+              {
+                "order": 50,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 270.995,
+                "end_at": 273.31,
+                "filler_num": 0
+              },
+              {
+                "order": 51,
+                "phrase": " oke",
+                "phrase_nofiller": " oke",
+                "start_at": 273.96,
+                "end_at": 275.08,
+                "filler_num": 0
+              },
+              {
+                "order": 52,
+                "phrase": " Iya, iya. Oke, baik Pak. Nanti ini semua akan saya catat dan akan saya sampaikan langsung kepada Tim yang akan handle meeting nanti sore, jadi nanti untuk pertanyaan Bapak akan segitu dia pada saat di mau meeting. Oke, baik. Kalau boleh tahu Pak, ini jumlah keseluruhan karyawan di GK Club Ubud ini sudah berapa orang?",
+                "phrase_nofiller": " Iya, iya. Oke, baik Pak. Nanti ini semua akan saya catat dan akan saya sampaikan langsung kepada Tim yang akan handle meeting nanti sore, jadi nanti untuk pertanyaan Bapak akan segitu dia pada saat di mau meeting. Oke, baik. Kalau boleh tahu Pak, ini jumlah keseluruhan karyawan di GK Club Ubud ini sudah berapa orang?",
+                "start_at": 275.79,
+                "end_at": 294.225,
+                "filler_num": 0
+              },
+              {
+                "order": 54,
+                "phrase": " kalau dari ada k-club juga grupnya",
+                "phrase_nofiller": " kalau dari ada k-club juga grupnya",
+                "start_at": 297.73,
+                "end_at": 301.785,
+                "filler_num": 0
+              },
+              {
+                "order": 56,
+                "phrase": " Mungkin untuk yang berbeda.",
+                "phrase_nofiller": " Mungkin untuk yang berbeda.",
+                "start_at": 306.155,
+                "end_at": 314.645,
+                "filler_num": 0
+              },
+              {
+                "order": 59,
+                "phrase": " Oke, baik kalau begitu. Ya Pak, mungkin kalau dari saya sendiri, dari kami, ini saya konfirmasi lagi nih untuk call center ya Pak, dan mungkin kira-kira sekitar lima orang, betul ya Pak ya?",
+                "phrase_nofiller": " Oke, baik kalau begitu. Ya Pak, mungkin kalau dari saya sendiri, dari kami, ini saya konfirmasi lagi nih untuk call center ya Pak, dan mungkin kira-kira sekitar lima orang, betul ya Pak ya?",
+                "start_at": 318.075,
+                "end_at": 331.37,
+                "filler_num": 0
+              },
+              {
+                "order": 61,
+                "phrase": " Oh, oke. Oke, oke.",
+                "phrase_nofiller": " Oh, oke. Oke, oke.",
+                "start_at": 334.01,
+                "end_at": 336.605,
+                "filler_num": 0
+              },
+              {
+                "order": 63,
+                "phrase": " Iya Pak, kebetulan memang dari Hospitality juga sudah ada klien datang dari Atlas Beach Fest, Atlas Beach Fest sendiri sudah menggunakan Mitel untuk customer service-nya mereka, jadi mereka menggunakannya itu, karena kita sudah ada recording otomatis juga ya Pak, jadi mereka bisa review kembali bagaimana",
+                "phrase_nofiller": " Iya Pak, kebetulan memang dari Hospitality juga sudah ada klien datang dari Atlas Beach Fest, Atlas Beach Fest sendiri sudah menggunakan Mitel untuk customer service-nya mereka, jadi mereka menggunakannya itu, karena kita sudah ada recording otomatis juga ya Pak, jadi mereka bisa review kembali bagaimana",
+                "start_at": 337.04,
+                "end_at": 357.035,
+                "filler_num": 0
+              },
+              {
+                "order": 64,
+                "phrase": " orang-orang yang akan servasi tempat-tempat mereka seperti itu. Dan mungkin akan dijelaskan lebih detail pada saat demo meeting juga ya Pak ya.",
+                "phrase_nofiller": " orang-orang yang akan servasi tempat-tempat mereka seperti itu. Dan mungkin akan dijelaskan lebih detail pada saat demo meeting juga ya Pak ya.",
+                "start_at": 357.04,
+                "end_at": 364.16,
+                "filler_num": 0
+              },
+              {
+                "order": 66,
+                "phrase": " Iya, iya, iya.",
+                "phrase_nofiller": " Iya, iya, iya.",
+                "start_at": 365.17,
+                "end_at": 367.22,
+                "filler_num": 0
+              },
+              {
+                "order": 67,
+                "phrase": " Oh iya.",
+                "phrase_nofiller": " Oh iya.",
+                "start_at": 369.87,
+                "end_at": 370.96,
+                "filler_num": 0
+              },
+              {
+                "order": 68,
+                "phrase": " Iya, boleh Pak. Jadi kalau mental ini, kita itu menjadikan sesuatu yang dilengkapi dengan AI analitik ya Pak, untuk monitoring hasil komunikasi oleh tim dengan fitur analisis suara serta voice to text. Jadi nantinya semua percakapan yang dilakukan di telepon akan langsung terekam dan tersimpan di dashboard dan nanti akan ada analisis",
+                "phrase_nofiller": " Iya, boleh Pak. Jadi kalau mental ini, kita itu menjadikan sesuatu yang dilengkapi dengan AI analitik ya Pak, untuk monitoring hasil komunikasi oleh tim dengan fitur analisis suara serta voice to text. Jadi nantinya semua percakapan yang dilakukan di telepon akan langsung terekam dan tersimpan di dashboard dan nanti akan ada analisis",
+                "start_at": 371.745,
+                "end_at": 391.74,
+                "filler_num": 0
+              },
+              {
+                "order": 69,
+                "phrase": " tulisannya nih Pak, jadi kita bisa cek bagaimana emosi dari customer dan emosi suara kita intonasinya betul atau tidak, itu bisa kita cek semua Pak. Lalu ada transcript juga melalui text dan bisa juga kita summary nih Pak, karena kita sudah tersambung dengan chat GPT, jadi nanti kita bisa lihat nih rangkuman hasil percobaannya tuh",
+                "phrase_nofiller": " tulisannya nih Pak, jadi kita bisa cek bagaimana emosi dari customer dan emosi suara kita intonasinya betul atau tidak, itu bisa kita cek semua Pak. Lalu ada transcript juga melalui text dan bisa juga kita summary nih Pak, karena kita sudah tersambung dengan chat GPT, jadi nanti kita bisa lihat nih rangkuman hasil percobaannya tuh",
+                "start_at": 391.745,
+                "end_at": 411.74,
+                "filler_num": 0
+              },
+              {
+                "order": 70,
+                "phrase": " seperti apa sih, kita bisa lihat Pak. Terus kita juga ada speech evaluation, jadi nanti kita bisa evaluasi nih Pak, bagaimana sih apakah tim kontak senternya mungkin sudah melakukan penelitian dengan benar, apakah ada overlap dengan customer atau lebih banyak berbicara",
+                "phrase_nofiller": " seperti apa sih, kita bisa lihat Pak. Terus kita juga ada speech evaluation, jadi nanti kita bisa evaluasi nih Pak, bagaimana sih apakah tim kontak senternya mungkin sudah melakukan penelitian dengan benar, apakah ada overlap dengan customer atau lebih banyak berbicara",
+                "start_at": 411.745,
+                "end_at": 431.74,
+                "filler_num": 0
+              },
+              {
+                "order": 71,
+                "phrase": " pada customernya dan customernya diam saja itu kita bisa cek semuanya. Dan kita juga bisa lihat keyword appearance, jadi kira-kira banyak kalimat apa yang paling sering diucapkan oleh kita saat ini. Jadi memang benar-benar nipau untuk evaluasi seperti itu dan kalau untuk salah satu penelponan, kita juga sudah",
+                "phrase_nofiller": " pada customernya dan customernya diam saja itu kita bisa cek semuanya. Dan kita juga bisa lihat keyword appearance, jadi kira-kira banyak kalimat apa yang paling sering diucapkan oleh kita saat ini. Jadi memang benar-benar nipau untuk evaluasi seperti itu dan kalau untuk salah satu penelponan, kita juga sudah",
+                "start_at": 431.745,
+                "end_at": 451.74,
+                "filler_num": 0
+              },
+              {
+                "order": 72,
+                "phrase": " ada call memo pak, call memo otomatis. Jadi nantinya setelah selesai peneleponan kita bisa langsung teknik pak hasil peneleponannya seperti apa. Misalnya untuk goalnya adalah paid ya pak ya, misalnya. Nanti setelah selesai peneleponan kita bisa langsung tag memo sebagai paid. Nanti kita bisa lihat di dashboard",
+                "phrase_nofiller": " ada call memo pak, call memo otomatis. Jadi nantinya setelah selesai peneleponan kita bisa langsung teknik pak hasil peneleponannya seperti apa. Misalnya untuk goalnya adalah paid ya pak ya, misalnya. Nanti setelah selesai peneleponan kita bisa langsung tag memo sebagai paid. Nanti kita bisa lihat di dashboard",
+                "start_at": 451.745,
+                "end_at": 471.74,
+                "filler_num": 0
+              },
+              {
+                "order": 73,
+                "phrase": " kira-kira sudah ada berapa peneleponan yang berhasil paid dalam hari ini atau minggu ini atau bulan ini masih bisa dikatam ya Pak untuk tanggalnya seperti itu. Jadi masih banyak lagi nih Pak untuk fiturnya mungkin setelah ini saya akan kirimkan link invitation melalui email dan saya juga kirimkan company profile ya Pak ya jadi Bapak bisa review juga",
+                "phrase_nofiller": " kira-kira sudah ada berapa peneleponan yang berhasil paid dalam hari ini atau minggu ini atau bulan ini masih bisa dikatam ya Pak untuk tanggalnya seperti itu. Jadi masih banyak lagi nih Pak untuk fiturnya mungkin setelah ini saya akan kirimkan link invitation melalui email dan saya juga kirimkan company profile ya Pak ya jadi Bapak bisa review juga",
+                "start_at": 471.745,
+                "end_at": 491.74,
+                "filler_num": 0
+              },
+              {
+                "order": 74,
+                "phrase": " mungkin untuk fitur-fitur digital seperti apa saja.",
+                "phrase_nofiller": " mungkin untuk fitur-fitur digital seperti apa saja.",
+                "start_at": 491.745,
+                "end_at": 494.77,
+                "filler_num": 0
+              },
+              {
+                "order": 77,
+                "phrase": " Akhir sekali.",
+                "phrase_nofiller": " Akhir sekali.",
+                "start_at": 495.775,
+                "end_at": 497.32,
+                "filler_num": 0
+              },
+              {
+                "order": 79,
+                "phrase": " Ya betul.",
+                "phrase_nofiller": " Ya betul.",
+                "start_at": 505.62,
+                "end_at": 507.57,
+                "filler_num": 0
+              },
+              {
+                "order": 80,
+                "phrase": " Oke, baik kalau begitu. Mungkin apakah dari Bapak sendiri, apakah ada pertanyaan lain?",
+                "phrase_nofiller": " Oke, baik kalau begitu. Mungkin apakah dari Bapak sendiri, apakah ada pertanyaan lain?",
+                "start_at": 507.89,
+                "end_at": 515.115,
+                "filler_num": 0
+              },
+              {
+                "order": 82,
+                "phrase": " Oke, siap?",
+                "phrase_nofiller": " Oke, siap?",
+                "start_at": 515.425,
+                "end_at": 516.64,
+                "filler_num": 0
+              },
+              {
+                "order": 83,
+                "phrase": " Iya boleh pak, baik. Nanti kalau misalkan emailnya sudah diterima, boleh dibantu untuk",
+                "phrase_nofiller": " Iya boleh pak, baik. Nanti kalau misalkan emailnya sudah diterima, boleh dibantu untuk",
+                "start_at": 519.415,
+                "end_at": 525.82,
+                "filler_num": 0
+              },
+              {
+                "order": 84,
+                "phrase": " Akses kalendernya, Pak. Ya, iskutan dari masing-masing hadiran. Oke, baiklah begitu. Terima kasih ya, Pak. Atas waktunya, selamat siang. Iya, selamat malam, Pak.",
+                "phrase_nofiller": " Akses kalendernya, Pak. Ya, iskutan dari masing-masing hadiran. Oke, baiklah begitu. Terima kasih ya, Pak. Atas waktunya, selamat siang. Iya, selamat malam, Pak.",
+                "start_at": 526.225,
+                "end_at": 537.325,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 0,
+                "phrase": " Bapak perkenalkan saya Mazaya dari Mitang, ini dengan Bapak Benek Dityus dari K Club.",
+                "phrase_nofiller": " Bapak perkenalkan saya Mazaya dari Mitang, ini dengan Bapak Benek Dityus dari K Club.",
+                "start_at": 6.045,
+                "end_at": 11.93,
+                "filler_num": null
+              },
+              {
+                "order": 1,
+                "phrase": " Eh iya Bapak, saya ingin konfirmasi, sebelumnya Bapak menyisikan data atas keterlibatannya dengan Mital setelah melihat kami di Google, apakah betul?",
+                "phrase_nofiller": " Eh iya Bapak, saya ingin konfirmasi, sebelumnya Bapak menyisikan data atas keterlibatannya dengan Mital setelah melihat kami di Google, apakah betul?",
+                "start_at": 20.42,
+                "end_at": 29.42,
+                "filler_num": null
+              },
+              {
+                "order": 2,
+                "phrase": " Oke, baik. Mungkin saat ini apakah memang sedang ada kebutuhan dengan salah satu produk dari kami, pak?",
+                "phrase_nofiller": " Oke, baik. Mungkin saat ini apakah memang sedang ada kebutuhan dengan salah satu produk dari kami, pak?",
+                "start_at": 34.61,
+                "end_at": 40.33,
+                "filler_num": null
+              },
+              {
+                "order": 9,
+                "phrase": " kira-kira sudah ada berapa peneleponan yang berhasil paid dalam hari ini atau minggu ini atau bulan ini masih bisa dikatam ya Pak untuk tanggalnya seperti itu. Jadi masih banyak lagi nih Pak untuk fiturnya mungkin setelah ini saya akan kirimkan link invitation melalui email dan saya juga kirimkan company profile ya Pak ya jadi Bapak bisa review juga",
+                "phrase_nofiller": " kira-kira sudah ada berapa peneleponan yang berhasil paid dalam hari ini atau minggu ini atau bulan ini masih bisa dikatam ya Pak untuk tanggalnya seperti itu. Jadi masih banyak lagi nih Pak untuk fiturnya mungkin setelah ini saya akan kirimkan link invitation melalui email dan saya juga kirimkan company profile ya Pak ya jadi Bapak bisa review juga",
+                "start_at": 471.745,
+                "end_at": 491.74,
+                "filler_num": null
+              }
+            ]
+          },
+          {
+            "participant_id": "0191dfd7-6e2d-00f5-a754-1312229c78ba",
+            "raw": [
+              {
+                "order": 1,
+                "phrase": " Iya, iya.",
+                "phrase_nofiller": " Iya, iya.",
+                "start_at": 4.84,
+                "end_at": 5.89,
+                "filler_num": 0
+              },
+              {
+                "order": 3,
+                "phrase": " benediktus bukan benediktus",
+                "phrase_nofiller": " benediktus bukan benediktus",
+                "start_at": 11.76,
+                "end_at": 14.14,
+                "filler_num": 0
+              },
+              {
+                "order": 7,
+                "phrase": " Terima kasih, semuanya.",
+                "phrase_nofiller": " Terima kasih, semuanya.",
+                "start_at": 29.915,
+                "end_at": 32.085,
+                "filler_num": 0
+              },
+              {
+                "order": 8,
+                "phrase": " Iya, deng. Dari Google, benar.",
+                "phrase_nofiller": " Iya, deng. Dari Google, benar.",
+                "start_at": 32.45,
+                "end_at": 34.12,
+                "filler_num": 0
+              },
+              {
+                "order": 10,
+                "phrase": " Jadi saya ceritain dulu, kita ini lagi perlu",
+                "phrase_nofiller": " Jadi saya ceritain dulu, kita ini lagi perlu",
+                "start_at": 40.83,
+                "end_at": 45.725,
+                "filler_num": 0
+              },
+              {
+                "order": 11,
+                "phrase": " Kita tuh lagi mau ngelakuin yang namanya",
+                "phrase_nofiller": " Kita tuh lagi mau ngelakuin yang namanya",
+                "start_at": 45.99,
+                "end_at": 48.53,
+                "filler_num": 0
+              },
+              {
+                "order": 12,
+                "phrase": " Call center lah semacam call center. Jadi kayak kita mau misalnya satu agent megang, kita punya 5 agent. Sorry sebentar, saya upload file dulu.",
+                "phrase_nofiller": " Call center lah semacam call center. Jadi kayak kita mau misalnya satu agent megang, kita punya 5 agent. Sorry sebentar, saya upload file dulu.",
+                "start_at": 48.87,
+                "end_at": 61.64,
+                "filler_num": 0
+              },
+              {
+                "order": 14,
+                "phrase": " Jadi ada lima agent gitu ya, nah lima agent ini nanti akan menghubungi list dari number yang sudah kita punya dari database. Cuma kan kayak ibu tau ya, kalau kita melepon kan kadang-kadang kalau pakai satu nomor kan",
+                "phrase_nofiller": " Jadi ada lima agent gitu ya, nah lima agent ini nanti akan menghubungi list dari number yang sudah kita punya dari database. Cuma kan kayak ibu tau ya, kalau kita melepon kan kadang-kadang kalau pakai satu nomor kan",
+                "start_at": 69.945,
+                "end_at": 87.41,
+                "filler_num": 0
+              },
+              {
+                "order": 15,
+                "phrase": " ya pasti akan ini kan, dia di-block, kalau langsung udah di-block ya sudah selesai gitu kan. Nah kita tuh mau kayak punya masking number.",
+                "phrase_nofiller": " ya pasti akan ini kan, dia di-block, kalau langsung udah di-block ya sudah selesai gitu kan. Nah kita tuh mau kayak punya masking number.",
+                "start_at": 88.195,
+                "end_at": 96.845,
+                "filler_num": 0
+              },
+              {
+                "order": 17,
+                "phrase": " Seperti itu. Saya sekarang lagi nanya-nanya sama kontak juga Mekari, produknya Mekari, karena saya cek ternyata dia punya juga. Saya mau compare mana yang lebih benefit buat saya. Karena sekarang kita sebenarnya punya, udah langganan sama salah satu produknya kontak, Mekari kontak. Cuma pas saya pelajarin, oh ada Mekari ternyata punya ya.",
+                "phrase_nofiller": " Seperti itu. Saya sekarang lagi nanya-nanya sama kontak juga Mekari, produknya Mekari, karena saya cek ternyata dia punya juga. Saya mau compare mana yang lebih benefit buat saya. Karena sekarang kita sebenarnya punya, udah langganan sama salah satu produknya kontak, Mekari kontak. Cuma pas saya pelajarin, oh ada Mekari ternyata punya ya.",
+                "start_at": 97.15,
+                "end_at": 117.145,
+                "filler_num": 0
+              },
+              {
+                "order": 20,
+                "phrase": " makanya saya approach mereka juga buat nanya mana yang ini. Sekarang saya lagi komparasi satu sama lain sih. Nah sebelum saya jelaskan, itu general idea-nya, sebelum kita diskusi lebih lanjut, bener dari Mitel bisa melakukan proses seperti yang kebutuhan yang kita perlukan?",
+                "phrase_nofiller": " makanya saya approach mereka juga buat nanya mana yang ini. Sekarang saya lagi komparasi satu sama lain sih. Nah sebelum saya jelaskan, itu general idea-nya, sebelum kita diskusi lebih lanjut, bener dari Mitel bisa melakukan proses seperti yang kebutuhan yang kita perlukan?",
+                "start_at": 117.15,
+                "end_at": 135.98,
+                "filler_num": 0
+              },
+              {
+                "order": 26,
+                "phrase": " Saya sebenarnya nggak tahu kalau dari sistemnya Mitel itu gimana, apakah satu nomor kita bisa masking ke beberapa nomor, atau kita harus registrasi beberapa nomor untuk kemudian dimasking. Ini harusnya yang dijelaskan dari Mitel, bukan saya.",
+                "phrase_nofiller": " Saya sebenarnya nggak tahu kalau dari sistemnya Mitel itu gimana, apakah satu nomor kita bisa masking ke beberapa nomor, atau kita harus registrasi beberapa nomor untuk kemudian dimasking. Ini harusnya yang dijelaskan dari Mitel, bukan saya.",
+                "start_at": 171.03,
+                "end_at": 187,
+                "filler_num": 0
+              },
+              {
+                "order": 29,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 197.06,
+                "end_at": 198.35,
+                "filler_num": 0
+              },
+              {
+                "order": 30,
+                "phrase": " Oke.",
+                "phrase_nofiller": " Oke.",
+                "start_at": 198.67,
+                "end_at": 200.115,
+                "filler_num": 0
+              },
+              {
+                "order": 32,
+                "phrase": " Dihari apa?",
+                "phrase_nofiller": " Dihari apa?",
+                "start_at": 211.17,
+                "end_at": 212.175,
+                "filler_num": 0
+              },
+              {
+                "order": 34,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 215.185,
+                "end_at": 218.2,
+                "filler_num": 0
+              },
+              {
+                "order": 36,
+                "phrase": " Nih gue udah",
+                "phrase_nofiller": " Nih gue udah",
+                "start_at": 218.535,
+                "end_at": 219.795,
+                "filler_num": 0
+              },
+              {
+                "order": 37,
+                "phrase": " Gak ada aja kebanyakan?",
+                "phrase_nofiller": " Gak ada aja kebanyakan?",
+                "start_at": 220.05,
+                "end_at": 221.475,
+                "filler_num": 0
+              },
+              {
+                "order": 38,
+                "phrase": " Ini jam 4 sore WIB ya, Pak Wita? Saya di Bali soalnya.",
+                "phrase_nofiller": " Ini jam 4 sore WIB ya, Pak Wita? Saya di Bali soalnya.",
+                "start_at": 223.405,
+                "end_at": 227.25,
+                "filler_num": 0
+              },
+              {
+                "order": 40,
+                "phrase": " WIB, oke gak apa-apa.",
+                "phrase_nofiller": " WIB, oke gak apa-apa.",
+                "start_at": 230.45,
+                "end_at": 231.875,
+                "filler_num": 0
+              },
+              {
+                "order": 42,
+                "phrase": " Oke.",
+                "phrase_nofiller": " Oke.",
+                "start_at": 239.29,
+                "end_at": 240.32,
+                "filler_num": 0
+              },
+              {
+                "order": 44,
+                "phrase": " Kita pakai lain-lain dari telkom aja sih sementara ini.",
+                "phrase_nofiller": " Kita pakai lain-lain dari telkom aja sih sementara ini.",
+                "start_at": 246.75,
+                "end_at": 250.07,
+                "filler_num": 0
+              },
+              {
+                "order": 46,
+                "phrase": " Cuma kalau misalnya untuk per-agent kan kita mau coba pakai nomor-nomor itu jadi makanya kayak",
+                "phrase_nofiller": " Cuma kalau misalnya untuk per-agent kan kita mau coba pakai nomor-nomor itu jadi makanya kayak",
+                "start_at": 251.2,
+                "end_at": 258.6,
+                "filler_num": 0
+              },
+              {
+                "order": 48,
+                "phrase": " TLS-TLS kita ini mau anggaplah, mau kita berdayakan. Cuma sementara ini kita masih pakai nomor WhatsApp. So, kita mau coba pakai nomor, ya tadi itu yang tadi saya sampaikan. Ya apakah di masking atau bagaimana, ya nanti coba dijelaskan aja pas demo.",
+                "phrase_nofiller": " TLS-TLS kita ini mau anggaplah, mau kita berdayakan. Cuma sementara ini kita masih pakai nomor WhatsApp. So, kita mau coba pakai nomor, ya tadi itu yang tadi saya sampaikan. Ya apakah di masking atau bagaimana, ya nanti coba dijelaskan aja pas demo.",
+                "start_at": 258.96,
+                "end_at": 276.33,
+                "filler_num": 0
+              },
+              {
+                "order": 53,
+                "phrase": " Atau K Club Ubud atau K Club Grup.",
+                "phrase_nofiller": " Atau K Club Ubud atau K Club Grup.",
+                "start_at": 294.55,
+                "end_at": 296.81,
+                "filler_num": 0
+              },
+              {
+                "order": 55,
+                "phrase": " Grup itu kita yang beberapa venue, kalau Ubud itu satu venue.",
+                "phrase_nofiller": " Grup itu kita yang beberapa venue, kalau Ubud itu satu venue.",
+                "start_at": 302.47,
+                "end_at": 308.12,
+                "filler_num": 0
+              },
+              {
+                "order": 57,
+                "phrase": " Pertama kali ya, ubuh topo grup",
+                "phrase_nofiller": " Pertama kali ya, ubuh topo grup",
+                "start_at": 308.655,
+                "end_at": 310.91,
+                "filler_num": 0
+              },
+              {
+                "order": 58,
+                "phrase": " Group lebih kurang 300 plus lah, saya nggak terlalu yakin berapa.",
+                "phrase_nofiller": " Group lebih kurang 300 plus lah, saya nggak terlalu yakin berapa.",
+                "start_at": 313.52,
+                "end_at": 320.54,
+                "filler_num": 0
+              },
+              {
+                "order": 60,
+                "phrase": " Itu contoh saja, kita belum tahu nantinya berapa orang.",
+                "phrase_nofiller": " Itu contoh saja, kita belum tahu nantinya berapa orang.",
+                "start_at": 332.135,
+                "end_at": 335.31,
+                "filler_num": 0
+              },
+              {
+                "order": 62,
+                "phrase": " Kita belum tahu.",
+                "phrase_nofiller": " Kita belum tahu.",
+                "start_at": 335.605,
+                "end_at": 336.91,
+                "filler_num": 0
+              },
+              {
+                "order": 65,
+                "phrase": " Oke, oke. Sebenernya Mitel tuh bisa ngapain aja sih, saya dijelasin sedikit dong siapa tau nanti saya bisa expand ke field lainnya.",
+                "phrase_nofiller": " Oke, oke. Sebenernya Mitel tuh bisa ngapain aja sih, saya dijelasin sedikit dong siapa tau nanti saya bisa expand ke field lainnya.",
+                "start_at": 364.17,
+                "end_at": 372.48,
+                "filler_num": 0
+              },
+              {
+                "order": 75,
+                "phrase": " Oke.",
+                "phrase_nofiller": " Oke.",
+                "start_at": 491.97,
+                "end_at": 493.33,
+                "filler_num": 0
+              },
+              {
+                "order": 76,
+                "phrase": " Oke. Satu lagi, kalau untuk berarti, itu kan berarti kalau saya tangkap lebih untuk",
+                "phrase_nofiller": " Oke. Satu lagi, kalau untuk berarti, itu kan berarti kalau saya tangkap lebih untuk",
+                "start_at": 494.95,
+                "end_at": 501.475,
+                "filler_num": 0
+              },
+              {
+                "order": 78,
+                "phrase": " Ya, sebenarnya cold call bisa juga sih. Ya, cold call bisa juga. Yaudah, yaudah. Nggak jadi. Nanti aja.",
+                "phrase_nofiller": " Ya, sebenarnya cold call bisa juga sih. Ya, cold call bisa juga. Yaudah, yaudah. Nggak jadi. Nanti aja.",
+                "start_at": 502.29,
+                "end_at": 508.205,
+                "filler_num": 0
+              },
+              {
+                "order": 81,
+                "phrase": " Nggak ada. Nanti invitasinya saya juga akan ajak tim saya juga ya.",
+                "phrase_nofiller": " Nggak ada. Nanti invitasinya saya juga akan ajak tim saya juga ya.",
+                "start_at": 514.56,
+                "end_at": 519.28,
+                "filler_num": 0
+              },
+              {
+                "order": 85,
+                "phrase": " Terima kasih. Selamat siang.",
+                "phrase_nofiller": " Terima kasih. Selamat siang.",
+                "start_at": 534.365,
+                "end_at": 536.09,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 3,
+                "phrase": " Call center lah semacam call center. Jadi kayak kita mau misalnya satu agent megang, kita punya 5 agent. Sorry sebentar, saya upload file dulu.",
+                "phrase_nofiller": " Call center lah semacam call center. Jadi kayak kita mau misalnya satu agent megang, kita punya 5 agent. Sorry sebentar, saya upload file dulu.",
+                "start_at": 48.87,
+                "end_at": 61.64,
+                "filler_num": null
+              },
+              {
+                "order": 4,
+                "phrase": " Jadi ada lima agent gitu ya, nah lima agent ini nanti akan menghubungi list dari number yang sudah kita punya dari database. Cuma kan kayak ibu tau ya, kalau kita melepon kan kadang-kadang kalau pakai satu nomor kan",
+                "phrase_nofiller": " Jadi ada lima agent gitu ya, nah lima agent ini nanti akan menghubungi list dari number yang sudah kita punya dari database. Cuma kan kayak ibu tau ya, kalau kita melepon kan kadang-kadang kalau pakai satu nomor kan",
+                "start_at": 69.945,
+                "end_at": 87.41,
+                "filler_num": null
+              },
+              {
+                "order": 5,
+                "phrase": " ya pasti akan ini kan, dia di-block, kalau langsung udah di-block ya sudah selesai gitu kan. Nah kita tuh mau kayak punya masking number.",
+                "phrase_nofiller": " ya pasti akan ini kan, dia di-block, kalau langsung udah di-block ya sudah selesai gitu kan. Nah kita tuh mau kayak punya masking number.",
+                "start_at": 88.195,
+                "end_at": 96.845,
+                "filler_num": null
+              },
+              {
+                "order": 6,
+                "phrase": " makanya saya approach mereka juga buat nanya mana yang ini. Sekarang saya lagi komparasi satu sama lain sih. Nah sebelum saya jelaskan, itu general idea-nya, sebelum kita diskusi lebih lanjut, bener dari Mitel bisa melakukan proses seperti yang kebutuhan yang kita perlukan?",
+                "phrase_nofiller": " makanya saya approach mereka juga buat nanya mana yang ini. Sekarang saya lagi komparasi satu sama lain sih. Nah sebelum saya jelaskan, itu general idea-nya, sebelum kita diskusi lebih lanjut, bener dari Mitel bisa melakukan proses seperti yang kebutuhan yang kita perlukan?",
+                "start_at": 117.15,
+                "end_at": 135.98,
+                "filler_num": null
+              },
+              {
+                "order": 7,
+                "phrase": " Saya sebenarnya nggak tahu kalau dari sistemnya Mitel itu gimana, apakah satu nomor kita bisa masking ke beberapa nomor, atau kita harus registrasi beberapa nomor untuk kemudian dimasking. Ini harusnya yang dijelaskan dari Mitel, bukan saya.",
+                "phrase_nofiller": " Saya sebenarnya nggak tahu kalau dari sistemnya Mitel itu gimana, apakah satu nomor kita bisa masking ke beberapa nomor, atau kita harus registrasi beberapa nomor untuk kemudian dimasking. Ini harusnya yang dijelaskan dari Mitel, bukan saya.",
+                "start_at": 171.03,
+                "end_at": 187,
+                "filler_num": null
+              },
+              {
+                "order": 8,
+                "phrase": " TLS-TLS kita ini mau anggaplah, mau kita berdayakan. Cuma sementara ini kita masih pakai nomor WhatsApp. So, kita mau coba pakai nomor, ya tadi itu yang tadi saya sampaikan. Ya apakah di masking atau bagaimana, ya nanti coba dijelaskan aja pas demo.",
+                "phrase_nofiller": " TLS-TLS kita ini mau anggaplah, mau kita berdayakan. Cuma sementara ini kita masih pakai nomor WhatsApp. So, kita mau coba pakai nomor, ya tadi itu yang tadi saya sampaikan. Ya apakah di masking atau bagaimana, ya nanti coba dijelaskan aja pas demo.",
+                "start_at": 258.96,
+                "end_at": 276.33,
+                "filler_num": null
+              },
+              {
+                "order": 10,
+                "phrase": " Nggak ada. Nanti invitasinya saya juga akan ajak tim saya juga ya.",
+                "phrase_nofiller": " Nggak ada. Nanti invitasinya saya juga akan ajak tim saya juga ya.",
+                "start_at": 514.56,
+                "end_at": 519.28,
+                "filler_num": null
+              }
+            ]
+          }
+        ],
+        "speech_recognition": {
+          "raw": "0:02 (Operator)  Halo, selamat siang\n0:04 (Customer)  Iya, iya.\n0:06 (Operator)  Bapak perkenalkan saya Mazaya dari Mitang, ini dengan Bapak Benek Dityus dari K Club.\n0:11 (Customer)  benediktus bukan benediktus\n0:14 (Operator)  Saya Benediktus.\n0:17 (Operator)  Oke, baik betul ya pak ya.\n0:20 (Operator)  Eh iya Bapak, saya ingin konfirmasi, sebelumnya Bapak menyisikan data atas keterlibatannya dengan Mital setelah melihat kami di Google, apakah betul?\n0:29 (Customer)  Terima kasih, semuanya.\n0:32 (Customer)  Iya, deng. Dari Google, benar.\n0:34 (Operator)  Oke, baik. Mungkin saat ini apakah memang sedang ada kebutuhan dengan salah satu produk dari kami, pak?\n0:40 (Customer)  Jadi saya ceritain dulu, kita ini lagi perlu\n0:45 (Customer)  Kita tuh lagi mau ngelakuin yang namanya\n0:48 (Customer)  Call center lah semacam call center. Jadi kayak kita mau misalnya satu agent megang, kita punya 5 agent. Sorry sebentar, saya upload file dulu.\n0:50 (Operator)  Mhm, mhm\n1:09 (Customer)  Jadi ada lima agent gitu ya, nah lima agent ini nanti akan menghubungi list dari number yang sudah kita punya dari database. Cuma kan kayak ibu tau ya, kalau kita melepon kan kadang-kadang kalau pakai satu nomor kan\n1:28 (Customer)  ya pasti akan ini kan, dia di-block, kalau langsung udah di-block ya sudah selesai gitu kan. Nah kita tuh mau kayak punya masking number.\n1:33 (Operator)  Mereka ingin berjalan\n1:37 (Customer)  Seperti itu. Saya sekarang lagi nanya-nanya sama kontak juga Mekari, produknya Mekari, karena saya cek ternyata dia punya juga. Saya mau compare mana yang lebih benefit buat saya. Karena sekarang kita sebenarnya punya, udah langganan sama salah satu produknya kontak, Mekari kontak. Cuma pas saya pelajarin, oh ada Mekari ternyata punya ya.\n1:40 (Operator)  Bye bye..\n1:46 (Operator)  Hmm...\n1:57 (Customer)  makanya saya approach mereka juga buat nanya mana yang ini. Sekarang saya lagi komparasi satu sama lain sih. Nah sebelum saya jelaskan, itu general idea-nya, sebelum kita diskusi lebih lanjut, bener dari Mitel bisa melakukan proses seperti yang kebutuhan yang kita perlukan?\n2:01 (Operator)  Terima kasih.\n2:17 (Operator)  untuk masking nomornya pak ya.\n2:21 (Operator)  Oke, iya pak. Untuk masking number sendiri, mohon maaf, tunggu sebentar ya, saya akan cek kembali track masking number karena memang\n2:29 (Operator)  dari kami ini untuk masing-masing number sendiri masih memungkinkan, Pak, untuk dilakukan. Cuma nanti saya akan konfirmasi kembali terkait ini dan untuk terkait call center sendiri, Pak, jadi nomornya sendiri memang akan digunakan hanya satu atau nantinya Bapak juga akan memakai beberapa nomor, Pak.\n2:49 (Operator)  Seperti itu.\n2:51 (Customer)  Saya sebenarnya nggak tahu kalau dari sistemnya Mitel itu gimana, apakah satu nomor kita bisa masking ke beberapa nomor, atau kita harus registrasi beberapa nomor untuk kemudian dimasking. Ini harusnya yang dijelaskan dari Mitel, bukan saya.\n2:55 (Operator)  yaudah\n3:06 (Operator)  Oke, baik Pak. Mungkin kalau untuk penjelasan yang lebih teknikal seperti itu bisa kami jelaskan pada saat demo meeting, Pak. Jadi untuk demo meetingnya sendiri, tim kami akan presentasi mengenai keseluruhan dashboard mental seperti apa, fitur, lalu teknikanya seperti apa, dan solusi. Bapak juga bisa coba demogratis terlebih dahulu melalui online.\n3:17 (Customer)  Terima kasih.\n3:18 (Customer)  Oke.\n3:26 (Operator)  online meeting dengan tim kami. Mungkin bisa saya jadwalkan, Pak, di hari ini?\n3:31 (Customer)  Dihari apa?\n3:32 (Operator)  Di hari ini bisa saya jadwakan Pak, mungkin di sekitar jam 4 sore.\n3:35 (Customer)  Terima kasih.\n3:36 (Operator)  Oke, baik\n3:38 (Customer)  Nih gue udah\n3:40 (Customer)  Gak ada aja kebanyakan?\n3:43 (Customer)  Ini jam 4 sore WIB ya, Pak Wita? Saya di Bali soalnya.\n3:47 (Operator)  Oke, Pak. Kalau untuk saat ini jam 4 sore di WIB, Pak?\n3:50 (Customer)  WIB, oke gak apa-apa.\n3:51 (Operator)  Iya, bisa ya Pak. Oke, bagaimana bisa langsung dilakukan? Nanti untuk link meetingnya akan saya berikan melalui email ya Pak.\n3:59 (Customer)  Oke.\n3:59 (Operator)  Oke, baik Pak. Mungkin kalau untuk telephone existing yang sedang digunakan saat ini, menggunakan telephone apa Pak?\n4:06 (Customer)  Kita pakai lain-lain dari telkom aja sih sementara ini.\n4:09 (Operator)  Oh, oke.\n4:11 (Customer)  Cuma kalau misalnya untuk per-agent kan kita mau coba pakai nomor-nomor itu jadi makanya kayak\n4:18 (Operator)  Oke, thanks.\n4:18 (Customer)  TLS-TLS kita ini mau anggaplah, mau kita berdayakan. Cuma sementara ini kita masih pakai nomor WhatsApp. So, kita mau coba pakai nomor, ya tadi itu yang tadi saya sampaikan. Ya apakah di masking atau bagaimana, ya nanti coba dijelaskan aja pas demo.\n4:21 (Operator)  Terima kasih.\n4:30 (Operator)  Terima kasih.\n4:33 (Operator)  oke\n4:35 (Operator)  Iya, iya. Oke, baik Pak. Nanti ini semua akan saya catat dan akan saya sampaikan langsung kepada Tim yang akan handle meeting nanti sore, jadi nanti untuk pertanyaan Bapak akan segitu dia pada saat di mau meeting. Oke, baik. Kalau boleh tahu Pak, ini jumlah keseluruhan karyawan di GK Club Ubud ini sudah berapa orang?\n4:54 (Customer)  Atau K Club Ubud atau K Club Grup.\n4:57 (Operator)  kalau dari ada k-club juga grupnya\n5:02 (Customer)  Grup itu kita yang beberapa venue, kalau Ubud itu satu venue.\n5:06 (Operator)  Mungkin untuk yang berbeda.\n5:08 (Customer)  Pertama kali ya, ubuh topo grup\n5:13 (Customer)  Group lebih kurang 300 plus lah, saya nggak terlalu yakin berapa.\n5:18 (Operator)  Oke, baik kalau begitu. Ya Pak, mungkin kalau dari saya sendiri, dari kami, ini saya konfirmasi lagi nih untuk call center ya Pak, dan mungkin kira-kira sekitar lima orang, betul ya Pak ya?\n5:32 (Customer)  Itu contoh saja, kita belum tahu nantinya berapa orang.\n5:34 (Operator)  Oh, oke. Oke, oke.\n5:35 (Customer)  Kita belum tahu.\n5:37 (Operator)  Iya Pak, kebetulan memang dari Hospitality juga sudah ada klien datang dari Atlas Beach Fest, Atlas Beach Fest sendiri sudah menggunakan Mitel untuk customer service-nya mereka, jadi mereka menggunakannya itu, karena kita sudah ada recording otomatis juga ya Pak, jadi mereka bisa review kembali bagaimana\n5:57 (Operator)  orang-orang yang akan servasi tempat-tempat mereka seperti itu. Dan mungkin akan dijelaskan lebih detail pada saat demo meeting juga ya Pak ya.\n6:04 (Customer)  Oke, oke. Sebenernya Mitel tuh bisa ngapain aja sih, saya dijelasin sedikit dong siapa tau nanti saya bisa expand ke field lainnya.\n6:05 (Operator)  Iya, iya, iya.\n6:09 (Operator)  Oh iya.\n6:11 (Operator)  Iya, boleh Pak. Jadi kalau mental ini, kita itu menjadikan sesuatu yang dilengkapi dengan AI analitik ya Pak, untuk monitoring hasil komunikasi oleh tim dengan fitur analisis suara serta voice to text. Jadi nantinya semua percakapan yang dilakukan di telepon akan langsung terekam dan tersimpan di dashboard dan nanti akan ada analisis\n6:31 (Operator)  tulisannya nih Pak, jadi kita bisa cek bagaimana emosi dari customer dan emosi suara kita intonasinya betul atau tidak, itu bisa kita cek semua Pak. Lalu ada transcript juga melalui text dan bisa juga kita summary nih Pak, karena kita sudah tersambung dengan chat GPT, jadi nanti kita bisa lihat nih rangkuman hasil percobaannya tuh\n6:51 (Operator)  seperti apa sih, kita bisa lihat Pak. Terus kita juga ada speech evaluation, jadi nanti kita bisa evaluasi nih Pak, bagaimana sih apakah tim kontak senternya mungkin sudah melakukan penelitian dengan benar, apakah ada overlap dengan customer atau lebih banyak berbicara\n7:11 (Operator)  pada customernya dan customernya diam saja itu kita bisa cek semuanya. Dan kita juga bisa lihat keyword appearance, jadi kira-kira banyak kalimat apa yang paling sering diucapkan oleh kita saat ini. Jadi memang benar-benar nipau untuk evaluasi seperti itu dan kalau untuk salah satu penelponan, kita juga sudah\n7:31 (Operator)  ada call memo pak, call memo otomatis. Jadi nantinya setelah selesai peneleponan kita bisa langsung teknik pak hasil peneleponannya seperti apa. Misalnya untuk goalnya adalah paid ya pak ya, misalnya. Nanti setelah selesai peneleponan kita bisa langsung tag memo sebagai paid. Nanti kita bisa lihat di dashboard\n7:51 (Operator)  kira-kira sudah ada berapa peneleponan yang berhasil paid dalam hari ini atau minggu ini atau bulan ini masih bisa dikatam ya Pak untuk tanggalnya seperti itu. Jadi masih banyak lagi nih Pak untuk fiturnya mungkin setelah ini saya akan kirimkan link invitation melalui email dan saya juga kirimkan company profile ya Pak ya jadi Bapak bisa review juga\n8:11 (Operator)  mungkin untuk fitur-fitur digital seperti apa saja.\n8:11 (Customer)  Oke.\n8:14 (Customer)  Oke. Satu lagi, kalau untuk berarti, itu kan berarti kalau saya tangkap lebih untuk\n8:15 (Operator)  Akhir sekali.\n8:22 (Customer)  Ya, sebenarnya cold call bisa juga sih. Ya, cold call bisa juga. Yaudah, yaudah. Nggak jadi. Nanti aja.\n8:25 (Operator)  Ya betul.\n8:27 (Operator)  Oke, baik kalau begitu. Mungkin apakah dari Bapak sendiri, apakah ada pertanyaan lain?\n8:34 (Customer)  Nggak ada. Nanti invitasinya saya juga akan ajak tim saya juga ya.\n8:35 (Operator)  Oke, siap?\n8:39 (Operator)  Iya boleh pak, baik. Nanti kalau misalkan emailnya sudah diterima, boleh dibantu untuk\n8:46 (Operator)  Akses kalendernya, Pak. Ya, iskutan dari masing-masing hadiran. Oke, baiklah begitu. Terima kasih ya, Pak. Atas waktunya, selamat siang. Iya, selamat malam, Pak.\n8:54 (Customer)  Terima kasih. Selamat siang.",
+          "summary": "0:06 (Operator)  Bapak perkenalkan saya Mazaya dari Mitang, ini dengan Bapak Benek Dityus dari K Club.\n0:20 (Operator)  Eh iya Bapak, saya ingin konfirmasi, sebelumnya Bapak menyisikan data atas keterlibatannya dengan Mital setelah melihat kami di Google, apakah betul?\n0:34 (Operator)  Oke, baik. Mungkin saat ini apakah memang sedang ada kebutuhan dengan salah satu produk dari kami, pak?\n0:48 (Customer)  Call center lah semacam call center. Jadi kayak kita mau misalnya satu agent megang, kita punya 5 agent. Sorry sebentar, saya upload file dulu.\n1:09 (Customer)  Jadi ada lima agent gitu ya, nah lima agent ini nanti akan menghubungi list dari number yang sudah kita punya dari database. Cuma kan kayak ibu tau ya, kalau kita melepon kan kadang-kadang kalau pakai satu nomor kan\n1:28 (Customer)  ya pasti akan ini kan, dia di-block, kalau langsung udah di-block ya sudah selesai gitu kan. Nah kita tuh mau kayak punya masking number.\n1:57 (Customer)  makanya saya approach mereka juga buat nanya mana yang ini. Sekarang saya lagi komparasi satu sama lain sih. Nah sebelum saya jelaskan, itu general idea-nya, sebelum kita diskusi lebih lanjut, bener dari Mitel bisa melakukan proses seperti yang kebutuhan yang kita perlukan?\n2:51 (Customer)  Saya sebenarnya nggak tahu kalau dari sistemnya Mitel itu gimana, apakah satu nomor kita bisa masking ke beberapa nomor, atau kita harus registrasi beberapa nomor untuk kemudian dimasking. Ini harusnya yang dijelaskan dari Mitel, bukan saya.\n4:18 (Customer)  TLS-TLS kita ini mau anggaplah, mau kita berdayakan. Cuma sementara ini kita masih pakai nomor WhatsApp. So, kita mau coba pakai nomor, ya tadi itu yang tadi saya sampaikan. Ya apakah di masking atau bagaimana, ya nanti coba dijelaskan aja pas demo.\n7:51 (Operator)  kira-kira sudah ada berapa peneleponan yang berhasil paid dalam hari ini atau minggu ini atau bulan ini masih bisa dikatam ya Pak untuk tanggalnya seperti itu. Jadi masih banyak lagi nih Pak untuk fiturnya mungkin setelah ini saya akan kirimkan link invitation melalui email dan saya juga kirimkan company profile ya Pak ya jadi Bapak bisa review juga\n8:34 (Customer)  Nggak ada. Nanti invitasinya saya juga akan ajak tim saya juga ya."
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:26:22.567Z
+Payload: {
+  "call": {
+    "id": "c6af6661-1847-4999-b407-f9cfc383ed48",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "c6af6661-1847-4999-b407-f9cfc383ed48",
+        "dial_starts_at": "2024-09-11T07:25:29+00:00",
+        "dial_answered_at": null,
+        "dial_ends_at": "2024-09-11T07:26:17+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02150913400",
+        "circuit_name": "02150913400",
+        "from_number": null,
+        "to_number": "+6289681213889",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": null,
+        "participants": [
+          {
+            "id": "0191dff9-1ca3-c6fb-6c99-0c5de26f5f33",
+            "from_to": "FROM",
+            "name": "Mazaya",
+            "company_name": null,
+            "analysis": null
+          },
+          {
+            "id": "0191dff9-1ca3-1849-83e3-62539f0dd878",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": null
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:27:25.304Z
+Payload: {
+  "call": {
+    "id": "1c0b0216-9145-4fd2-af39-71af92a7ff6b",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "1c0b0216-9145-4fd2-af39-71af92a7ff6b",
+        "dial_starts_at": "2024-09-11T07:26:24+00:00",
+        "dial_answered_at": null,
+        "dial_ends_at": "2024-09-11T07:27:20+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02150913400",
+        "circuit_name": "02150913400",
+        "from_number": null,
+        "to_number": "+6281320508623",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": null,
+        "participants": [
+          {
+            "id": "0191dff9-f3f8-8976-748b-f83943cdcd88",
+            "from_to": "FROM",
+            "name": "Mazaya",
+            "company_name": null,
+            "analysis": null
+          },
+          {
+            "id": "0191dff9-f3f8-70fd-220b-bc53770ef99a",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": null
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:29:06.455Z
+Payload: {
+  "call": {
+    "id": "b592f42e-b2a5-45fc-acab-1a0a657f0b12",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "b592f42e-b2a5-45fc-acab-1a0a657f0b12",
+        "dial_starts_at": "2024-09-11T07:28:39+00:00",
+        "dial_answered_at": null,
+        "dial_ends_at": "2024-09-11T07:29:00+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02150913400",
+        "circuit_name": "02150913400",
+        "from_number": null,
+        "to_number": "+628111337902",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": null,
+        "participants": [
+          {
+            "id": "0191dffc-01e4-9a56-72a4-633e8e94d349",
+            "from_to": "FROM",
+            "name": "Mazaya",
+            "company_name": null,
+            "analysis": null
+          },
+          {
+            "id": "0191dffc-01e4-0b57-32f9-a0a4b72d7fe9",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": null
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:32:57.533Z
+Payload: {
+  "call": {
+    "id": "23fade19-f534-46cc-a4a1-cb11345fb215",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "23fade19-f534-46cc-a4a1-cb11345fb215",
+        "dial_starts_at": "2024-09-11T07:27:52+00:00",
+        "dial_answered_at": "2024-09-11T07:28:02+00:00",
+        "dial_ends_at": "2024-09-11T07:28:42+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141238",
+        "circuit_name": "02131141238",
+        "from_number": null,
+        "to_number": "+622150105230",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 0,
+          "tlr": 0.9412,
+          "rally_count": 7,
+          "overlap_count": 0,
+          "silence_count": 0,
+          "silence_positions": [],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191dffb-4c06-a996-bf04-1f0acdf81335",
+            "from_to": "FROM",
+            "name": "Mitasari",
+            "company_name": null,
+            "analysis": {
+              "f0": 186.2039,
+              "speechrate": 11.7955,
+              "variance": 16.684,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          },
+          {
+            "id": "0191dffb-4c06-7dfa-59c7-53ff4cec5481",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": {
+              "f0": null,
+              "speechrate": 12.6316,
+              "variance": null,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "Mitasari",
+            "creator_type": "TENANT_USER",
+            "value": "Need to Follow up for Reception"
+          }
+        ],
+        "comments": [],
+        "keywords": [
+          {
+            "starts_at": 32,
+            "participant_id": "0191dffb-4c06-a996-bf04-1f0acdf81335",
+            "value": "terima kasih"
+          }
+        ],
+        "phrases": [
+          {
+            "participant_id": "0191dffb-4c06-a996-bf04-1f0acdf81335",
+            "raw": [
+              {
+                "order": 1,
+                "phrase": " Halo, selamat siang Pak. Saya Mitrang dari Mitral Indonesia. Bisa tolong disambungkan dengan Bapak Radit di bagian business and development.",
+                "phrase_nofiller": " Halo, selamat siang Pak. Saya Mitrang dari Mitral Indonesia. Bisa tolong disambungkan dengan Bapak Radit di bagian business and development.",
+                "start_at": 1.41,
+                "end_at": 9.655,
+                "filler_num": 0
+              },
+              {
+                "order": 3,
+                "phrase": " Iya, Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Bapak Radit di www.mital.com.",
+                "phrase_nofiller": " Iya, Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Bapak Radit di www.mital.com.",
+                "start_at": 13.14,
+                "end_at": 20.555,
+                "filler_num": 0
+              },
+              {
+                "order": 5,
+                "phrase": " Bapak Radit.",
+                "phrase_nofiller": " Bapak Radit.",
+                "start_at": 22.04,
+                "end_at": 23.5,
+                "filler_num": 0
+              },
+              {
+                "order": 7,
+                "phrase": " Oh, oke. Mungkin bisa saya call lagi di jam 4 sore.",
+                "phrase_nofiller": " Oh, oke. Mungkin bisa saya call lagi di jam 4 sore.",
+                "start_at": 26.805,
+                "end_at": 30.77,
+                "filler_num": 0
+              },
+              {
+                "order": 8,
+                "phrase": " Oke, terima kasih ya. Selamat siang.",
+                "phrase_nofiller": " Oke, terima kasih ya. Selamat siang.",
+                "start_at": 32.34,
+                "end_at": 36.095,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 0,
+                "phrase": " Halo, selamat siang Pak. Saya Mitrang dari Mitral Indonesia. Bisa tolong disambungkan dengan Bapak Radit di bagian business and development.",
+                "phrase_nofiller": " Halo, selamat siang Pak. Saya Mitrang dari Mitral Indonesia. Bisa tolong disambungkan dengan Bapak Radit di bagian business and development.",
+                "start_at": 1.41,
+                "end_at": 9.655,
+                "filler_num": null
+              },
+              {
+                "order": 1,
+                "phrase": " Iya, Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Bapak Radit di www.mital.com.",
+                "phrase_nofiller": " Iya, Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Bapak Radit di www.mital.com.",
+                "start_at": 13.14,
+                "end_at": 20.555,
+                "filler_num": null
+              },
+              {
+                "order": 2,
+                "phrase": " Oh, oke. Mungkin bisa saya call lagi di jam 4 sore.",
+                "phrase_nofiller": " Oh, oke. Mungkin bisa saya call lagi di jam 4 sore.",
+                "start_at": 26.805,
+                "end_at": 30.77,
+                "filler_num": null
+              }
+            ]
+          },
+          {
+            "participant_id": "0191dffb-4c06-7dfa-59c7-53ff4cec5481",
+            "raw": [
+              {
+                "order": 0,
+                "phrase": " Halo, siap.",
+                "phrase_nofiller": " Halo, siap.",
+                "start_at": 0.15,
+                "end_at": 1.44,
+                "filler_num": 0
+              },
+              {
+                "order": 2,
+                "phrase": " Halo, sorry, bisa diulang?",
+                "phrase_nofiller": " Halo, sorry, bisa diulang?",
+                "start_at": 11.11,
+                "end_at": 12.5,
+                "filler_num": 0
+              },
+              {
+                "order": 4,
+                "phrase": " Bapak siap, Bapak",
+                "phrase_nofiller": " Bapak siap, Bapak",
+                "start_at": 21.165,
+                "end_at": 22.175,
+                "filler_num": 0
+              },
+              {
+                "order": 6,
+                "phrase": " Orangnya lagi keluar",
+                "phrase_nofiller": " Orangnya lagi keluar",
+                "start_at": 24.6,
+                "end_at": 26.135,
+                "filler_num": 0
+              }
+            ],
+            "summary": []
+          }
+        ],
+        "speech_recognition": {
+          "raw": "0:00 (Customer)  Halo, siap.\n0:01 (Operator)  Halo, selamat siang Pak. Saya Mitrang dari Mitral Indonesia. Bisa tolong disambungkan dengan Bapak Radit di bagian business and development.\n0:11 (Customer)  Halo, sorry, bisa diulang?\n0:13 (Operator)  Iya, Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Bapak Radit di www.mital.com.\n0:21 (Customer)  Bapak siap, Bapak\n0:22 (Operator)  Bapak Radit.\n0:24 (Customer)  Orangnya lagi keluar\n0:26 (Operator)  Oh, oke. Mungkin bisa saya call lagi di jam 4 sore.\n0:32 (Operator)  Oke, terima kasih ya. Selamat siang.",
+          "summary": "0:01 (Operator)  Halo, selamat siang Pak. Saya Mitrang dari Mitral Indonesia. Bisa tolong disambungkan dengan Bapak Radit di bagian business and development.\n0:13 (Operator)  Iya, Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Bapak Radit di www.mital.com.\n0:26 (Operator)  Oh, oke. Mungkin bisa saya call lagi di jam 4 sore."
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:53:44.664Z
+Payload: {
+  "call": {
+    "id": "d58af4a7-037a-496d-94e0-0d54b2275c2d",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "d58af4a7-037a-496d-94e0-0d54b2275c2d",
+        "dial_starts_at": "2024-09-11T07:53:35+00:00",
+        "dial_answered_at": null,
+        "dial_ends_at": "2024-09-11T07:53:39+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141238",
+        "circuit_name": "02131141238",
+        "from_number": null,
+        "to_number": "+62217292728",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": null,
+        "participants": [
+          {
+            "id": "0191e012-d825-b5aa-1355-705cbde728f9",
+            "from_to": "FROM",
+            "name": "Mitasari",
+            "company_name": null,
+            "analysis": null
+          },
+          {
+            "id": "0191e012-d825-3022-6604-de64e6f423e8",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": null
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:54:05.743Z
+Payload: {
+  "call": {
+    "id": "7db50148-f80c-4585-9842-83ce132089c0",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "7db50148-f80c-4585-9842-83ce132089c0",
+        "dial_starts_at": "2024-09-11T07:53:48+00:00",
+        "dial_answered_at": null,
+        "dial_ends_at": "2024-09-11T07:54:00+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141238",
+        "circuit_name": "02131141238",
+        "from_number": null,
+        "to_number": "+622150986036",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": null,
+        "participants": [
+          {
+            "id": "0191e013-0a3e-3525-116e-872d2cca6b1b",
+            "from_to": "FROM",
+            "name": "Mitasari",
+            "company_name": null,
+            "analysis": null
+          },
+          {
+            "id": "0191e013-0a3e-a954-967a-d929fff97d53",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": null
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:55:14.255Z
+Payload: {
+  "call": {
+    "id": "6787419a-988a-40f5-a51c-5368bd594aa2",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "6787419a-988a-40f5-a51c-5368bd594aa2",
+        "dial_starts_at": "2024-09-11T07:54:42+00:00",
+        "dial_answered_at": "2024-09-11T07:54:44+00:00",
+        "dial_ends_at": "2024-09-11T07:54:45+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141271",
+        "circuit_name": "02131141271",
+        "from_number": null,
+        "to_number": "+623613007222",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 9,
+          "tlr": 0,
+          "rally_count": 0,
+          "overlap_count": 0,
+          "silence_count": 0,
+          "silence_positions": [],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191e013-dea6-bd20-740c-ba67a37d81dd",
+            "from_to": "FROM",
+            "name": "rahmi",
+            "company_name": null,
+            "analysis": {
+              "f0": null,
+              "speechrate": null,
+              "variance": null,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          },
+          {
+            "id": "0191e013-dea6-d1da-9588-cd71fb89a24b",
+            "from_to": "TO",
+            "name": "Atlasbechfest",
+            "company_name": "Atlasbechfest",
+            "analysis": {
+              "f0": null,
+              "speechrate": null,
+              "variance": null,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "rahmi",
+            "creator_type": "TENANT_USER",
+            "value": "Support Test"
+          }
+        ],
+        "comments": [],
+        "keywords": [],
+        "phrases": [
+          {
+            "participant_id": "0191e013-dea6-bd20-740c-ba67a37d81dd",
+            "raw": [],
+            "summary": []
+          },
+          {
+            "participant_id": "0191e013-dea6-d1da-9588-cd71fb89a24b",
+            "raw": [],
+            "summary": []
+          }
+        ],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:55:26.343Z
+Payload: {
+  "call": {
+    "id": "fe3c75b4-44bf-47f5-b9cb-dd739dd70c6c",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "fe3c75b4-44bf-47f5-b9cb-dd739dd70c6c",
+        "dial_starts_at": "2024-09-11T07:54:57+00:00",
+        "dial_answered_at": "2024-09-11T07:54:58+00:00",
+        "dial_ends_at": "2024-09-11T07:54:59+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141271",
+        "circuit_name": "02131141271",
+        "from_number": null,
+        "to_number": "+623613007222",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 9,
+          "tlr": 0,
+          "rally_count": 0,
+          "overlap_count": 0,
+          "silence_count": 0,
+          "silence_positions": [],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191e014-1982-51f2-23cd-f2b8443e0d52",
+            "from_to": "FROM",
+            "name": "rahmi",
+            "company_name": null,
+            "analysis": {
+              "f0": null,
+              "speechrate": null,
+              "variance": null,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          },
+          {
+            "id": "0191e014-1982-5e29-f29c-75a001350c96",
+            "from_to": "TO",
+            "name": "Atlasbechfest",
+            "company_name": "Atlasbechfest",
+            "analysis": {
+              "f0": null,
+              "speechrate": null,
+              "variance": null,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [
+          {
+            "participant_id": "0191e014-1982-51f2-23cd-f2b8443e0d52",
+            "raw": [],
+            "summary": []
+          },
+          {
+            "participant_id": "0191e014-1982-5e29-f29c-75a001350c96",
+            "raw": [],
+            "summary": []
+          }
+        ],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T07:58:37.347Z
+Payload: {
+  "call": {
+    "id": "28628dc8-5b44-415b-96bb-6361ece141c3",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "28628dc8-5b44-415b-96bb-6361ece141c3",
+        "dial_starts_at": "2024-09-11T07:57:31+00:00",
+        "dial_answered_at": null,
+        "dial_ends_at": "2024-09-11T07:58:33+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141238",
+        "circuit_name": "02131141238",
+        "from_number": null,
+        "to_number": "+62213503881",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": null,
+        "participants": [
+          {
+            "id": "0191e016-71da-06ba-9a21-c8543a8a8f9c",
+            "from_to": "FROM",
+            "name": "Mitasari",
+            "company_name": null,
+            "analysis": null
+          },
+          {
+            "id": "0191e016-71da-1b44-2f14-311cea9855f6",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": null
+          }
+        ],
+        "tags": [],
+        "comments": [],
+        "keywords": [],
+        "phrases": [],
+        "speech_recognition": {
+          "raw": "",
+          "summary": ""
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T08:01:10.698Z
+Payload: {
+  "call": {
+    "id": "c57f2d81-62a6-4ece-b2ee-54d284ab99a9",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "c57f2d81-62a6-4ece-b2ee-54d284ab99a9",
+        "dial_starts_at": "2024-09-11T07:54:49+00:00",
+        "dial_answered_at": "2024-09-11T07:55:15+00:00",
+        "dial_ends_at": "2024-09-11T07:57:07+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141238",
+        "circuit_name": "02131141238",
+        "from_number": null,
+        "to_number": "+622188365885",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 16.642857142857142,
+          "tlr": 0.6723,
+          "rally_count": 14,
+          "overlap_count": 0,
+          "silence_count": 1,
+          "silence_positions": [
+            [
+              21.28,
+              25.78
+            ]
+          ],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "from_to": "FROM",
+            "name": "Mitasari",
+            "company_name": null,
+            "analysis": {
+              "f0": 204.1897,
+              "speechrate": 10.3372,
+              "variance": 20.7997,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          },
+          {
+            "id": "0191e013-f717-ef39-73f0-73a0d13bf5cb",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": {
+              "f0": 206.1245,
+              "speechrate": 7.2036,
+              "variance": 15.4993,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "Mitasari",
+            "creator_type": "TENANT_USER",
+            "value": "No Needs"
+          }
+        ],
+        "comments": [],
+        "keywords": [
+          {
+            "starts_at": 1,
+            "participant_id": "0191e013-f717-ef39-73f0-73a0d13bf5cb",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 11,
+            "participant_id": "0191e013-f717-ef39-73f0-73a0d13bf5cb",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 65,
+            "participant_id": "0191e013-f717-ef39-73f0-73a0d13bf5cb",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 108,
+            "participant_id": "0191e013-f717-ef39-73f0-73a0d13bf5cb",
+            "value": "terima kasih"
+          },
+          {
+            "starts_at": 51,
+            "participant_id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "value": "email"
+          },
+          {
+            "starts_at": 51,
+            "participant_id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "value": "tanggal"
+          },
+          {
+            "starts_at": 86,
+            "participant_id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "value": "email"
+          },
+          {
+            "starts_at": 86,
+            "participant_id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "value": "nanti"
+          },
+          {
+            "starts_at": 86,
+            "participant_id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "value": "telepon sistem"
+          },
+          {
+            "starts_at": 100,
+            "participant_id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "value": "terima kasih"
+          }
+        ],
+        "phrases": [
+          {
+            "participant_id": "0191e013-f717-d64e-e577-ce1c5de09b6f",
+            "raw": [
+              {
+                "order": 1,
+                "phrase": " Halo, selamat siang Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Mita dari Mitel Indonesia.",
+                "phrase_nofiller": " Halo, selamat siang Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Mita dari Mitel Indonesia.",
+                "start_at": 3.33,
+                "end_at": 13.45,
+                "filler_num": 0
+              },
+              {
+                "order": 4,
+                "phrase": " Ya, bisa disambungkan dengan Bapak Kamil di bagian IT.",
+                "phrase_nofiller": " Ya, bisa disambungkan dengan Bapak Kamil di bagian IT.",
+                "start_at": 14.57,
+                "end_at": 17.695,
+                "filler_num": 0
+              },
+              {
+                "order": 5,
+                "phrase": " Ya, betul.",
+                "phrase_nofiller": " Ya, betul.",
+                "start_at": 19.78,
+                "end_at": 21.285,
+                "filler_num": 0
+              },
+              {
+                "order": 7,
+                "phrase": " Halo, halo Pak. Selamat siang.",
+                "phrase_nofiller": " Halo, halo Pak. Selamat siang.",
+                "start_at": 38.44,
+                "end_at": 41.18,
+                "filler_num": 0
+              },
+              {
+                "order": 9,
+                "phrase": " Siang, Pak. Saya Mita dari Mitel Indonesia. Ini dengan Bapak Kamil.",
+                "phrase_nofiller": " Siang, Pak. Saya Mita dari Mitel Indonesia. Ini dengan Bapak Kamil.",
+                "start_at": 43.465,
+                "end_at": 49.535,
+                "filler_num": 0
+              },
+              {
+                "order": 11,
+                "phrase": " Pak Kamil, sebelumnya saya bermaksud untuk follow up terkait pengenalan produk kami, Pak. Untuk company profilnya sudah dikirim ke email Bapak di tanggal 28 Agustus pukul 10 pagi. Apakah sudah diterima, Pak Kamil?",
+                "phrase_nofiller": " Pak Kamil, sebelumnya saya bermaksud untuk follow up terkait pengenalan produk kami, Pak. Untuk company profilnya sudah dikirim ke email Bapak di tanggal 28 Agustus pukul 10 pagi. Apakah sudah diterima, Pak Kamil?",
+                "start_at": 51.06,
+                "end_at": 67.605,
+                "filler_num": 0
+              },
+              {
+                "order": 14,
+                "phrase": " Oh oke, baik.",
+                "phrase_nofiller": " Oh oke, baik.",
+                "start_at": 83.42,
+                "end_at": 85.415,
+                "filler_num": 0
+              },
+              {
+                "order": 15,
+                "phrase": " Oh, oke, baiklah, tidak apa-apa. Mungkin nanti jika sudah ada keperluan atau pergantian telepon, ya Pak, menjadi telepon sistem, bisa hubungi saya langsung ya, Pak, melalui email.",
+                "phrase_nofiller": " Oh, oke, baiklah, tidak apa-apa. Mungkin nanti jika sudah ada keperluan atau pergantian telepon, ya Pak, menjadi telepon sistem, bisa hubungi saya langsung ya, Pak, melalui email.",
+                "start_at": 86.935,
+                "end_at": 100.44,
+                "filler_num": 0
+              },
+              {
+                "order": 19,
+                "phrase": " Oke, baik. Terima kasih. Selamat sore, Pak.",
+                "phrase_nofiller": " Oke, baik. Terima kasih. Selamat sore, Pak.",
+                "start_at": 100.985,
+                "end_at": 105.895,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 0,
+                "phrase": " Halo, selamat siang Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Mita dari Mitel Indonesia.",
+                "phrase_nofiller": " Halo, selamat siang Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Mita dari Mitel Indonesia.",
+                "start_at": 3.33,
+                "end_at": 13.45,
+                "filler_num": null
+              },
+              {
+                "order": 1,
+                "phrase": " Ya, bisa disambungkan dengan Bapak Kamil di bagian IT.",
+                "phrase_nofiller": " Ya, bisa disambungkan dengan Bapak Kamil di bagian IT.",
+                "start_at": 14.57,
+                "end_at": 17.695,
+                "filler_num": null
+              },
+              {
+                "order": 2,
+                "phrase": " Siang, Pak. Saya Mita dari Mitel Indonesia. Ini dengan Bapak Kamil.",
+                "phrase_nofiller": " Siang, Pak. Saya Mita dari Mitel Indonesia. Ini dengan Bapak Kamil.",
+                "start_at": 43.465,
+                "end_at": 49.535,
+                "filler_num": null
+              },
+              {
+                "order": 3,
+                "phrase": " Pak Kamil, sebelumnya saya bermaksud untuk follow up terkait pengenalan produk kami, Pak. Untuk company profilnya sudah dikirim ke email Bapak di tanggal 28 Agustus pukul 10 pagi. Apakah sudah diterima, Pak Kamil?",
+                "phrase_nofiller": " Pak Kamil, sebelumnya saya bermaksud untuk follow up terkait pengenalan produk kami, Pak. Untuk company profilnya sudah dikirim ke email Bapak di tanggal 28 Agustus pukul 10 pagi. Apakah sudah diterima, Pak Kamil?",
+                "start_at": 51.06,
+                "end_at": 67.605,
+                "filler_num": null
+              },
+              {
+                "order": 5,
+                "phrase": " Oh, oke, baiklah, tidak apa-apa. Mungkin nanti jika sudah ada keperluan atau pergantian telepon, ya Pak, menjadi telepon sistem, bisa hubungi saya langsung ya, Pak, melalui email.",
+                "phrase_nofiller": " Oh, oke, baiklah, tidak apa-apa. Mungkin nanti jika sudah ada keperluan atau pergantian telepon, ya Pak, menjadi telepon sistem, bisa hubungi saya langsung ya, Pak, melalui email.",
+                "start_at": 86.935,
+                "end_at": 100.44,
+                "filler_num": null
+              }
+            ]
+          },
+          {
+            "participant_id": "0191e013-f717-ef39-73f0-73a0d13bf5cb",
+            "raw": [
+              {
+                "order": 0,
+                "phrase": " Ya, terima kasih ma.",
+                "phrase_nofiller": " Ya, terima kasih ma.",
+                "start_at": 1.31,
+                "end_at": 3.61,
+                "filler_num": 0
+              },
+              {
+                "order": 2,
+                "phrase": " Ya.",
+                "phrase_nofiller": " Ya.",
+                "start_at": 5.73,
+                "end_at": 6.74,
+                "filler_num": 0
+              },
+              {
+                "order": 3,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 11.645,
+                "end_at": 12.985,
+                "filler_num": 0
+              },
+              {
+                "order": 6,
+                "phrase": " Halo?",
+                "phrase_nofiller": " Halo?",
+                "start_at": 37.655,
+                "end_at": 39,
+                "filler_num": 0
+              },
+              {
+                "order": 8,
+                "phrase": " Ya? Ya?",
+                "phrase_nofiller": " Ya? Ya?",
+                "start_at": 42.28,
+                "end_at": 43.785,
+                "filler_num": 0
+              },
+              {
+                "order": 10,
+                "phrase": " Oh ya? Saya?",
+                "phrase_nofiller": " Oh ya? Saya?",
+                "start_at": 49.735,
+                "end_at": 51.64,
+                "filler_num": 0
+              },
+              {
+                "order": 12,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 65.06,
+                "end_at": 66.16,
+                "filler_num": 0
+              },
+              {
+                "order": 13,
+                "phrase": " Oh, kayaknya saya belum terima deh. Tapi untuk penginstalan ini, kita belum bisa sih, belum berbinat. Dari manajemen, belum mau kayaknya.",
+                "phrase_nofiller": " Oh, kayaknya saya belum terima deh. Tapi untuk penginstalan ini, kita belum bisa sih, belum berbinat. Dari manajemen, belum mau kayaknya.",
+                "start_at": 67.62,
+                "end_at": 87.295,
+                "filler_num": 0
+              },
+              {
+                "order": 16,
+                "phrase": " Mungkin lain kali, kira-kira.",
+                "phrase_nofiller": " Mungkin lain kali, kira-kira.",
+                "start_at": 88.055,
+                "end_at": 90.15,
+                "filler_num": 0
+              },
+              {
+                "order": 17,
+                "phrase": " hehehe",
+                "phrase_nofiller": " hehehe",
+                "start_at": 95.84,
+                "end_at": 96.84,
+                "filler_num": 0
+              },
+              {
+                "order": 18,
+                "phrase": " Boleh boleh.",
+                "phrase_nofiller": " Boleh boleh.",
+                "start_at": 100.895,
+                "end_at": 102.61,
+                "filler_num": 0
+              },
+              {
+                "order": 20,
+                "phrase": " Selamat menikmati",
+                "phrase_nofiller": " Selamat menikmati",
+                "start_at": 103.195,
+                "end_at": 104.215,
+                "filler_num": 0
+              },
+              {
+                "order": 21,
+                "phrase": " Ya.",
+                "phrase_nofiller": " Ya.",
+                "start_at": 104.635,
+                "end_at": 106.755,
+                "filler_num": 0
+              },
+              {
+                "order": 22,
+                "phrase": " Terima kasih.",
+                "phrase_nofiller": " Terima kasih.",
+                "start_at": 108.35,
+                "end_at": 109.545,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 4,
+                "phrase": " Oh, kayaknya saya belum terima deh. Tapi untuk penginstalan ini, kita belum bisa sih, belum berbinat. Dari manajemen, belum mau kayaknya.",
+                "phrase_nofiller": " Oh, kayaknya saya belum terima deh. Tapi untuk penginstalan ini, kita belum bisa sih, belum berbinat. Dari manajemen, belum mau kayaknya.",
+                "start_at": 67.62,
+                "end_at": 87.295,
+                "filler_num": null
+              }
+            ]
+          }
+        ],
+        "speech_recognition": {
+          "raw": "0:01 (Customer)  Ya, terima kasih ma.\n0:03 (Operator)  Halo, selamat siang Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Mita dari Mitel Indonesia.\n0:05 (Customer)  Ya.\n0:11 (Customer)  Terima kasih.\n0:14 (Operator)  Ya, bisa disambungkan dengan Bapak Kamil di bagian IT.\n0:19 (Operator)  Ya, betul.\n0:37 (Customer)  Halo?\n0:38 (Operator)  Halo, halo Pak. Selamat siang.\n0:42 (Customer)  Ya? Ya?\n0:43 (Operator)  Siang, Pak. Saya Mita dari Mitel Indonesia. Ini dengan Bapak Kamil.\n0:49 (Customer)  Oh ya? Saya?\n0:51 (Operator)  Pak Kamil, sebelumnya saya bermaksud untuk follow up terkait pengenalan produk kami, Pak. Untuk company profilnya sudah dikirim ke email Bapak di tanggal 28 Agustus pukul 10 pagi. Apakah sudah diterima, Pak Kamil?\n1:05 (Customer)  Terima kasih.\n1:07 (Customer)  Oh, kayaknya saya belum terima deh. Tapi untuk penginstalan ini, kita belum bisa sih, belum berbinat. Dari manajemen, belum mau kayaknya.\n1:23 (Operator)  Oh oke, baik.\n1:26 (Operator)  Oh, oke, baiklah, tidak apa-apa. Mungkin nanti jika sudah ada keperluan atau pergantian telepon, ya Pak, menjadi telepon sistem, bisa hubungi saya langsung ya, Pak, melalui email.\n1:28 (Customer)  Mungkin lain kali, kira-kira.\n1:35 (Customer)  hehehe\n1:40 (Customer)  Boleh boleh.\n1:40 (Operator)  Oke, baik. Terima kasih. Selamat sore, Pak.\n1:43 (Customer)  Selamat menikmati\n1:44 (Customer)  Ya.\n1:48 (Customer)  Terima kasih.",
+          "summary": "0:03 (Operator)  Halo, selamat siang Pak. Saya Mita dari Mitel Indonesia. Bisa tolong disambungkan dengan Mita dari Mitel Indonesia.\n0:14 (Operator)  Ya, bisa disambungkan dengan Bapak Kamil di bagian IT.\n0:43 (Operator)  Siang, Pak. Saya Mita dari Mitel Indonesia. Ini dengan Bapak Kamil.\n0:51 (Operator)  Pak Kamil, sebelumnya saya bermaksud untuk follow up terkait pengenalan produk kami, Pak. Untuk company profilnya sudah dikirim ke email Bapak di tanggal 28 Agustus pukul 10 pagi. Apakah sudah diterima, Pak Kamil?\n1:07 (Customer)  Oh, kayaknya saya belum terima deh. Tapi untuk penginstalan ini, kita belum bisa sih, belum berbinat. Dari manajemen, belum mau kayaknya.\n1:26 (Operator)  Oh, oke, baiklah, tidak apa-apa. Mungkin nanti jika sudah ada keperluan atau pergantian telepon, ya Pak, menjadi telepon sistem, bisa hubungi saya langsung ya, Pak, melalui email."
+        }
+      }
+    ]
+  }
+}
+
+Timestamp: 2024-09-11T08:02:25.815Z
+Payload: {
+  "call": {
+    "id": "47a09772-2b42-4166-aa7f-40b2e7779aa5",
+    "tenant_code": "revcomm-id",
+    "details": [
+      {
+        "id": "47a09772-2b42-4166-aa7f-40b2e7779aa5",
+        "dial_starts_at": "2024-09-11T08:00:02+00:00",
+        "dial_answered_at": "2024-09-11T08:00:03+00:00",
+        "dial_ends_at": "2024-09-11T08:00:22+00:00",
+        "queueing_starts_at": null,
+        "queueing_answered_at": null,
+        "queueing_ends_at": null,
+        "call_type": "OUTGOING_CALL",
+        "circuit_number": "02131141271",
+        "circuit_name": "02131141271",
+        "from_number": null,
+        "to_number": "+622150913456",
+        "previous_id": null,
+        "dtmf": null,
+        "analysis": {
+          "score": 9,
+          "tlr": 0,
+          "rally_count": 1,
+          "overlap_count": 0,
+          "silence_count": 0,
+          "silence_positions": [],
+          "overlap_positions": []
+        },
+        "participants": [
+          {
+            "id": "0191e018-c11f-aa07-c10b-98bbd44c4a4d",
+            "from_to": "FROM",
+            "name": "rahmi",
+            "company_name": null,
+            "analysis": {
+              "f0": 234.4129,
+              "speechrate": 15.311,
+              "variance": null,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          },
+          {
+            "id": "0191e018-c11f-646a-a5d3-002e356f905b",
+            "from_to": "TO",
+            "name": null,
+            "company_name": null,
+            "analysis": {
+              "f0": 224.2999,
+              "speechrate": 10.0917,
+              "variance": 35.1433,
+              "filler_count": 0,
+              "positive_score": 0,
+              "negative_score": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "created_by": "rahmi",
+            "creator_type": "TENANT_USER",
+            "value": "Support Test"
+          }
+        ],
+        "comments": [],
+        "keywords": [],
+        "phrases": [
+          {
+            "participant_id": "0191e018-c11f-aa07-c10b-98bbd44c4a4d",
+            "raw": [
+              {
+                "order": 0,
+                "phrase": " Selamat menikmati",
+                "phrase_nofiller": " Selamat menikmati",
+                "start_at": 2.435,
+                "end_at": 3.48,
+                "filler_num": 0
+              }
+            ],
+            "summary": []
+          },
+          {
+            "participant_id": "0191e018-c11f-646a-a5d3-002e356f905b",
+            "raw": [
+              {
+                "order": 1,
+                "phrase": " Mohon maaf, saat ini seluruh donor Care Yapika Action Aid sedang melayani donatur lainnya.",
+                "phrase_nofiller": " Mohon maaf, saat ini seluruh donor Care Yapika Action Aid sedang melayani donatur lainnya.",
+                "start_at": 8.92,
+                "end_at": 16.55,
+                "filler_num": 0
+              }
+            ],
+            "summary": [
+              {
+                "order": 0,
+                "phrase": " Mohon maaf, saat ini seluruh donor Care Yapika Action Aid sedang melayani donatur lainnya.",
+                "phrase_nofiller": " Mohon maaf, saat ini seluruh donor Care Yapika Action Aid sedang melayani donatur lainnya.",
+                "start_at": 8.92,
+                "end_at": 16.55,
+                "filler_num": null
+              }
+            ]
+          }
+        ],
+        "speech_recognition": {
+          "raw": "0:02 (Operator)  Selamat menikmati\n0:08 (Customer)  Mohon maaf, saat ini seluruh donor Care Yapika Action Aid sedang melayani donatur lainnya.",
+          "summary": "0:08 (Customer)  Mohon maaf, saat ini seluruh donor Care Yapika Action Aid sedang melayani donatur lainnya."
+        }
+      }
+    ]
+  }
+}
+
