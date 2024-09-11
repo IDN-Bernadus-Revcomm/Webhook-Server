@@ -10,11 +10,14 @@ const logPayload = (payload) => {
   const logData = `Timestamp: ${new Date().toISOString()}\nPayload: ${JSON.stringify(payload, null, 2)}\n\n`;
   
   // Append the log data to the log file (or create one if it doesn't exist)
-  fs.appendFileSync('webhook_payload.log', logData, (err) => {
+  /*fs.appendFileSync('webhook_payload.log', logData, (err) => {
     if (err) {
       console.error('Error writing to log file:', err);
     }
-  });
+  });*/
+
+  // Log the payload directly to the console for Render logs
+  console.log(logData);
 };
 
 // Webhook route
